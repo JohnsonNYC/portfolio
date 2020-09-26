@@ -3,3 +3,14 @@
     font-size: 39px;
     line-height: 1em;
 }
+
+.banner{
+    height: 600px;
+    display:flex ; 
+    justify-content: center;
+}
+
+.home-wrapper{
+    background-image: url('../png/banner\ picture.jpg');
+    background-size: auto;
+}

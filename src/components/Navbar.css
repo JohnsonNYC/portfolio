@@ -1,9 +1,15 @@
+#navbar{
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color:white;
-    background-color: black;
+    background-color: transparent;
 }
 
 
@@ -12,10 +18,15 @@
     justify-content: space-evenly;
 }
 
+.navButton{
+    margin-left: 20px
+}
+
 #title-container{
     font-family: "Bebas Neue";
     font-weight: 400;
     font-size: 45px;
+    top: 
 }
 
 
