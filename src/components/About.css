@@ -9,6 +9,7 @@
     font-size: 30px;
     letter-spacing: 1px;
     padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 img{
@@ -22,4 +23,8 @@ img{
     justify-content: space-around;
     margin-left:20rem;
     margin-right: 20rem;
+}
+
+.about-text{
+    font-family:"Archivo Narrow"
 }
