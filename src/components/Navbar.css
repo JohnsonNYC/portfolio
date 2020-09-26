@@ -19,7 +19,9 @@
 }
 
 .navButton{
-    margin-left: 20px
+    margin-left: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 #title-container{

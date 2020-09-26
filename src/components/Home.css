@@ -12,5 +12,5 @@
 
 .home-wrapper{
     background-image: url('../png/banner\ picture.jpg');
-    background-size: auto;
+    background-size: cover;
 }
