@@ -6,7 +6,7 @@ const BlogItem = (props) => {
     return ( 
         <div className='blog-item'>
             <div className='blog-thumbnail'>
-                <img className='blog-img' src={blog.imgSrc} />
+                <img className='blog-img' src={blog.imgSrc} alt={`${blog.title}`}/>
             </div>
         </div>
     );

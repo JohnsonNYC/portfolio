@@ -17,7 +17,8 @@
 .blog-thumbnails{
     background-color: midnightblue;
     display: flex;
-    
+    justify-content: center;
+
 }
 
 .feature-nav{
