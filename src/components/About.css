@@ -21,6 +21,7 @@ img{
 .about-text-picture{
     display:flex;
     justify-content: space-around;
+    align-items: center;
     margin-left:20rem;
     margin-right: 20rem;
 }

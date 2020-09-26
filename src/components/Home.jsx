@@ -1,7 +1,10 @@
 import React from 'react';
+
+//Components 
 import Navbar from './Navbar'
 import HomeBanner from './HomeBanner'
 import About from './About'
+import Blog from './Blog'
 import './Home.css'
 
 const Home = () => {
@@ -14,6 +17,7 @@ const Home = () => {
                 </div>
             </div>
             <About />
+            <Blog />
         </div>
     );
 }

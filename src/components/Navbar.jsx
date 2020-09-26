@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "fontsource-bebas-neue"
 import './Navbar.css'
+
 class Navbar extends Component {
     render() {
         return (

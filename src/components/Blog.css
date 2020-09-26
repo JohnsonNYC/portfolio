@@ -1,0 +1,21 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+#blog-header{
+    align-self: center;
+}
+.blog-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.feature-nav{
+    display: flex;
+}
+
+.page{
+    padding-left: 1rem;
+}
