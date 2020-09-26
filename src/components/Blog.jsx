@@ -16,8 +16,8 @@ const Blog = () => {
         }else{
             setDisplayIndex(displayIndex+4)
         }
-
-        setStack(blogs.slice(displayIndex, displayIndex+4))
+        let newStack = blogs.slice(displayIndex, displayIndex + 4);
+        setStack(newStack)
     }
 
     return (
