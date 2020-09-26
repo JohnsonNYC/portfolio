@@ -10,7 +10,8 @@
     justify-content: center;
 }
 
-.home-wrapper{
+.banner-wrapper{
     background-image: url('../png/banner\ picture.jpg');
     background-size: cover;
 }
+
