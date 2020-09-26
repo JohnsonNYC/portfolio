@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "title":"Big Brain Time: FizzBuzz",
+        "url":"https://medium.com/@jkow95_34338/big-brain-time-fizzbuzz-8e9f372d9d64",
+        "imgSrc":"https://miro.medium.com/max/512/1*wYqBEry-Px9oZI1PnoB_dw.jpeg"
+    },
+    {
+        "id":2,
+        "title":"AWS : The different types of Databases",
+        "url":"https://medium.com/@jkow95_34338/aws-the-different-types-of-databases-51684b759c12",
+        "imgSrc":"https://miro.medium.com/max/512/1*I45VoCNt8ZgoGJVfyxKuYg.jpeg"
+    },
+    {
+        "id":3,
+        "title":"AWS: Storage and Servers",
+        "url":"https://medium.com/@jkow95_34338/aws-storage-and-servers-2ef48d7676f1",
+        "imgSrc":"https://miro.medium.com/max/512/1*Ri0dMoX3bqjbjMiy1fDvGA.jpeg"
+    },
+    {
+        "id":4,
+        "title":"AWS Introduction",
+        "url":"https://medium.com/@jkow95_34338/aws-introduction-eccd3a4719e6",
+        "imgSrc":"https://miro.medium.com/max/512/1*AhqmmyG7A49bJ21bt4axiA.jpeg"
+    },
+    {
+        "id":5,
+        "title":"Valid Sudoku Challenge",
+        "url":"https://medium.com/@jkow95_34338/valid-sudoku-challenge-c5a1fc4080c6",
+        "imgSrc":"https://miro.medium.com/max/512/1*oMTzhzaE96kwj4b4hQkkgg.jpeg"
+    },
+    {
+        "id":6,
+        "title":"React Native Week 2: Navigation",
+        "url":"https://medium.com/@jkow95_34338/react-native-week-2-navigation-62bc876c2bff",
+        "imgSrc":"https://miro.medium.com/max/512/1*dG2Bp7yPRlfThh24zrff_A.jpeg"
+    },
+    {
+        "id":7,
+        "title":"Learning React Native: Week 1",
+        "url":"https://medium.com/@jkow95_34338/learning-react-native-week-1-bbc64325a2da",
+        "imgSrc":"https://miro.medium.com/max/512/1*Bkslrnbv_ustbylfcZ9Mpg.png"
+    },
+    {
+        "id":8,
+        "title":"Ruby on Rails: SQlite3 to PostgreSQL",
+        "url":"https://medium.com/@jkow95_34338/ruby-on-rails-sqlite3-to-postgresql-8eb9ebb21db7",
+        "imgSrc":"https://miro.medium.com/max/512/1*BD7NJHGp_TFT4QaCYGXRAw.jpeg"
+    },
+    {
+        "id":9,
+        "title":"Svelte vs React",
+        "url":"https://medium.com/@jkow95_34338/svelte-vs-react-e63dd7d16155",
+        "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
+    },
+    {
+        "id":10,
+        "title":"Noise Cancellation",
+        "url":"https://medium.com/@jkow95_34338/noise-cancellation-afd2f48e2fb1",
+        "imgSrc":"https://miro.medium.com/max/261/0*Q8-VhArkcAzQqurc.png"
+    },
+    {
+        "id":11,
+        "title":"Bluetooth",
+        "url":"https://medium.com/@jkow95_34338/bluetooth-57c230c7c595",
+        "imgSrc":"https://miro.medium.com/max/370/0*pymetebaY93K18ZL.png"
+    },
+    {
+        "id":12,
+        "title":"Flying with Artificial Intelligence",
+        "url":"https://medium.com/@jkow95_34338/flying-with-artificial-intelligence-9c21b32d5d7e",
+        "imgSrc":"https://miro.medium.com/max/512/0*EQ9ZOnFwJ7SCjoH8.jpg"
+    }
+]

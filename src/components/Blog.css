@@ -9,7 +9,15 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    font-family:"Abel";
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.blog-thumbnails{
+    background-color: midnightblue;
+    display: flex;
+    
 }
 
 .feature-nav{
@@ -17,5 +25,5 @@
 }
 
 .page{
-    padding-left: 1rem;
+    padding-right: 1rem
 }
