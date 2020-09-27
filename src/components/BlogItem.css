@@ -3,7 +3,7 @@
 }
 
 .blog-img{
-    width: 100px;
-    height: 100px;
+    width:18rem;
+    height: 15rem;
     object-fit: cover;
 }
