@@ -4,6 +4,10 @@ import data from './data/data.json';
 import './Blog.css';
 import 'fontsource-abel';
 
+// Working Blog Renderer. 
+// Now workion BlogItem to render title and create onClick for each
+// div to take user to your medium article page!
+
 const Blog = () => {
     const [blogs] = useState(data)
     const [displayIndex, setDisplayIndex] = useState(0)
