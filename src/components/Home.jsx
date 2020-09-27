@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import HomeBanner from './HomeBanner'
 import About from './About'
 import Blog from './Blog'
+import VideoContainer from './VideoContainer'
 import './Home.css'
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             </div>
             <About />
             <Blog />
+            <VideoContainer />
         </div>
     );
 }

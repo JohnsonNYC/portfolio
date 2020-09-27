@@ -1,0 +1,12 @@
+.video-container{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    width:60rem;
+    height: 35rem;
+}
