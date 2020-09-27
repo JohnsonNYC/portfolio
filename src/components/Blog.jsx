@@ -39,21 +39,20 @@ const Blog = () => {
         <div className='blog'>
             <div id='blog-header' className='subtitle'> Blog </div>
 
-            <div className='blog-container'>
+            <div className='blog-nav'>
                 <div className='featured'>Featured</div>
-
                 <div className='feature-nav'>
                     <div className='page' onClick={()=> console.log('PREV')}> prev </div>
                     <div className='page' onClick={onNext}> next </div>
                 </div>
             </div>
+
                 <div className='blog-thumbnails'>
-                    {/*Create State here with all the blogs and map such that you make a div for each one */}
                     {stack.map((blog)=>{
                         return <BlogItem key={blog.id} blog={blog}/>
                     })}
                 </div>
-
+            <button id='read-more'> Read More </button>
         </div>
     );
 }
