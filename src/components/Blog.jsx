@@ -38,7 +38,7 @@ const Blog = () => {
     return (
         <div className='blog'>
             <hr/>
-            <div id='blog-header' className='subtitle'> Hello </div>
+            <div id='blog-header' className='subtitle'> Blogs </div>
 
             <div className='blog-nav'>
                 <div className='featured'>Featured</div>

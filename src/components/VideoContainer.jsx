@@ -3,7 +3,7 @@ import './VideoContainer.css'
 const VideoContainer = () => {
     return (
         <div className='video-container'>
-            <hr/>
+            <hr />
             <div id='blog-header' className='subtitle'> Projects </div>
             <iframe
                 title="unique ID"
@@ -18,7 +18,12 @@ const VideoContainer = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
             />
-
+            <iframe
+                src="https://www.youtube.com/embed/UjEURK5LSIo"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            />
         </div>
     );
 }
