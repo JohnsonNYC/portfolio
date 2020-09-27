@@ -6,7 +6,9 @@
     align-items: center;
 }
 
+
 iframe{
     width:60rem;
     height: 35rem;
+    margin: 2rem;
 }

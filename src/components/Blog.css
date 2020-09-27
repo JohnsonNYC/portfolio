@@ -3,11 +3,23 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
 #blog-header{
     align-self: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top:2rem;
     /* background-color: cadetblue; */
 }
+
+hr{
+    /* background-color: black; */
+    margin: 10px;
+    width: 60rem;
+    background-color: black;
+    align-self: center;
+}
+
 .blog-nav{
     display:flex;
     justify-content: space-between;

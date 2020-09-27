@@ -3,6 +3,7 @@ import './VideoContainer.css'
 const VideoContainer = () => {
     return (
         <div className='video-container'>
+            <hr/>
             <div id='blog-header' className='subtitle'> Projects </div>
             <iframe
                 title="unique ID"
