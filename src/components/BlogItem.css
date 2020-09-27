@@ -1,23 +1,36 @@
 .blog-item{
     display:flex;
     justify-content: center;
-
+    align-content: center;
+    margin: 2px;
+    /* background-color: blueviolet; */
 }
 
 .blog-img{
-    width:18rem;
+    width:20rem;
     height: 15rem;
     object-fit: cover;
 }
 
 .blog-link{
     text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: brown; */
 }
 
 .blog-title{
-    font-family:'Abel';
-    font-size: 17px;
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
+    font-family:'Bebas Neue';
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #666;
+    /* background-color: orchid; */
+    max-width: 18rem;
+    text-align: center;
 }
+
+a:visited { text-decoration: none; color:#666; }
+a:hover { text-decoration: none; color:#666; }
+a:focus { text-decoration: none; color:#666; }
+/* a:hover, a:active { text-decoration: none; color:#666 } */

@@ -17,6 +17,8 @@
 .blog-thumbnails{
     display: flex;
     justify-content: center;
+    /* background-color: palegoldenrod; */
+    margin-bottom: 1 rem; /* mitigates shift in page when title takes two lines instead of one*/
 }
 
 .feature-nav{

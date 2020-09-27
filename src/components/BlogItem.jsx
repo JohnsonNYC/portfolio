@@ -10,6 +10,7 @@ const BlogItem = (props) => {
                     <img className='blog-img' src={blog.imgSrc} alt={`${blog.title}`} />
                     <div className='blog-title'>
                         {blog.title}
+                        {/* This is a test for a long string that should be broken into multiple lines */}
                     </div>
                 </a>
             </div>
