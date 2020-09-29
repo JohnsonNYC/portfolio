@@ -14,7 +14,13 @@
 
 strong{
     font-size:39;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
+}
+
+#description-1{
+    border: 3px white;
+    border-style: solid;
+    padding: 1cm;
 }
 
 #description-2{

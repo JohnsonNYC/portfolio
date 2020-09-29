@@ -5,9 +5,9 @@
 }
 
 .vl{
-    height: 525px;
+    height: 450px;
     padding-right: 2px;
-    background-color:gray;
+    background-color:rgb(194, 190, 190);
 }
 
 .subtitle{
@@ -38,5 +38,5 @@ img{
     font-size: 17px;
     letter-spacing: 1px;
     word-wrap: normal;
-    padding: 10px;
+    padding: 8px;
 }
