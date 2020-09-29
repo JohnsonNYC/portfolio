@@ -6,10 +6,9 @@
     color: white;
 }
 
-#description {
-    padding: 0 px;
+.description {
+    padding: 0px;
     margin: 10px;
-    font-size: 30px;
 }
 
 strong{
@@ -24,5 +23,9 @@ strong{
 }
 
 #description-2{
-    font-size: 20px;
+    font-size: 25px;
+}
+
+#description-3{
+    font-size: 18px ;
 }
