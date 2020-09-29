@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import "fontsource-bebas-neue"
 import './Navbar.css'
 
@@ -11,7 +12,7 @@ class Navbar extends Component {
                         Johnson Kow
                     </div>
                     <nav id='nav-links'> {/* Links Container */}
-                        <div className='navButton'> Home </div>
+                        <div className='navButton'><Link to='/' style={{ textDecoration: 'none' }}>Home</Link></div>
                         <div className='navButton'> About </div>
                         <div className='navButton'> Portfolio </div>
                         <div className='navButton'> Blog </div>
