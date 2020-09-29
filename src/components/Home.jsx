@@ -11,7 +11,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div className='home-page'>
-            <div className='banner-wrapper'>
+            <div id='banner-wrapper'>
                 <Navbar />
                 <div className='banner'>
                     <HomeBanner />

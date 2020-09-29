@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.banner-wrapper{
+#banner-wrapper{
     background-image: url('../png/banner\ picture.jpg');
     background-size: cover;
 }
