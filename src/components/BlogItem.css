@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-a:visited { text-decoration: none; color:#666; }
-a:hover { text-decoration: none; color:#666; }
-a:focus { text-decoration: none; color:#666; }
+.blog-link:visited { text-decoration: none; color:#666; }
+.blog-link:hover { text-decoration: none; color: black; }
+.blog-link:focus { text-decoration: none; color:#666; }
 /* a:hover, a:active { text-decoration: none; color:#666 } */

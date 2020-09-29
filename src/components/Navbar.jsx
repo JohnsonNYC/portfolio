@@ -12,11 +12,11 @@ class Navbar extends Component {
                         Johnson Kow
                     </div>
                     <nav id='nav-links'> {/* Links Container */}
-                        <div className='navButton'><Link to='/' style={{ textDecoration: 'none' }}>Home</Link></div>
-                        <div className='navButton'> About </div>
-                        <div className='navButton'> Portfolio </div>
-                        <div className='navButton'> Blog </div>
-                        <div className='navButton'> Contact </div>
+                        <div className='navButton'id='nb-1'><Link className='navLink' to='/' style={{ textDecoration: 'none' }}>Home</Link></div>
+                        <div className='navButton'id='nb-2'> About </div>
+                        <div className='navButton'id='nb-3'> Portfolio </div>
+                        <div className='navButton'id='nb-4'> Blog </div>
+                        <div className='navButton'id='nb-5'> Contact </div>
                     </nav>
                 </div>
             </header>
