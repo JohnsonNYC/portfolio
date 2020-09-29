@@ -27,7 +27,8 @@
 }
 
 .navLink{
-    color:white
+    color:white;
+    text-decoration: none;
 }
 
 .navLink:hover{
