@@ -6,19 +6,21 @@ const VideoContainer = () => {
             <hr />
             <div id='blog-header' className='subtitle'> Projects </div>
             <iframe
-                title="unique ID"
+                title="Picology"
                 src="https://www.youtube.com/embed/Bow4BPYAJlg"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
             />
-            <iframe title='Travel Rails'
+            <iframe 
+                title='Travel Rails'
                 src="https://www.youtube.com/embed/AUwPwo0MrgE"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
             />
             <iframe
+                title='Study Beans'
                 src="https://www.youtube.com/embed/UjEURK5LSIo"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

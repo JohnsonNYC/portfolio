@@ -27,5 +27,12 @@ img{
 }
 
 .about-text{
-    font-family:"Archivo Narrow"
+    font-family:"Archivo Narrow";
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.vertical-seperator{
+    border-left: 6px green;
+    height: 500px;
 }
