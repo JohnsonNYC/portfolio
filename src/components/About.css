@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+.vl{
+    height: 525px;
+    padding-right: 2px;
+    background-color:gray;
+}
+
 .subtitle{
     font-family: "Bebas Neue";
     font-size: 30px;
@@ -15,7 +21,7 @@
 img{
     width: 400px;
     height: 600px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .about-text-picture{
@@ -28,11 +34,9 @@ img{
 
 .about-text{
     font-family:"Archivo Narrow";
-    font-size: 20px;
+    margin-left:10px;
+    font-size: 17px;
     letter-spacing: 1px;
-}
-
-.vertical-seperator{
-    border-left: 6px green;
-    height: 500px;
+    word-wrap: normal;
+    padding: 10px;
 }

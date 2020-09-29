@@ -10,7 +10,7 @@ const About = () => {
             </div>
 
             <div className='about-text-picture'>
-                <div className='vertical-seperator'></div>
+                <div className='vl'></div>
                 <div className='about-text-container'>
                     <p className='about-text'> HELLO! I'M JOHNSON KOW, A SOFTWARE ENGINEER BASED OUT OF NEW YORK CITY</p>
                     <p className='about-text'> I ENJOY BUILDING FULLSTACK APPLICATOINS AND WEBSITES FROM START TO END. I CREATE BEAUTIFUL FRONTEND DESIGNS FOR A SMOOTH USER EXPERIENCE AND CREATE THE ARCHITECTURE AND LOGIC FOR THE BACKEND. MY GOAL IS TO BUILD BEAUTFIUL APPLICATIONS THAT ARE INTUITIVE TO USE.</p>
