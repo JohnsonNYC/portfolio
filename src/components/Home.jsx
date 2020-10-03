@@ -8,7 +8,7 @@ import Blog from './Blog'
 import VideoContainer from './VideoContainer'
 import './Home.css'
 
-const Home = () => {
+const HomePage = () => {
     return (
         <div className='home-page'>
             <div id='banner-wrapper'>
@@ -24,4 +24,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default HomePage;
