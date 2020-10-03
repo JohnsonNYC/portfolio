@@ -1,0 +1,6 @@
+#portfolio-banner {
+    height:664px;
+    background-image: url('../png/Portfolio\ Header.jpg');
+    background-size: cover;
+    background-position: 0% 70%;
+}
