@@ -4,6 +4,7 @@ import './App.css';
 import HomePage from './components/Home'
 import AboutPage from './components/AboutPage'
 import BlogPage from './components/BlogPage'
+import PortfolioPage from './components/PortfolioPage'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route path="/about" render={()=> <AboutPage/>}/>
+        <Route path="/portfolio" render={()=> <PortfolioPage/>}/>
         <Route path="/blog" render={()=> <BlogPage />} />
         <Route exact path="/" component={HomePage}/>
       </Switch>

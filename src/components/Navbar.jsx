@@ -14,7 +14,7 @@ class Navbar extends Component {
                     <nav id='nav-links'> {/* Links Container */}
                         <div className='navButton'id='nb-1'><Link className='navLink' to='/'>Home</Link></div>
                         <div className='navButton'id='nb-2'> <Link className='navLink' to='/about'>About</Link></div>
-                        <div className='navButton'id='nb-3'> Portfolio </div>
+                        <div className='navButton'id='nb-3'><Link className='navLink' to='/portfolio'>Portfolio</Link></div>
                         <div className='navButton'id='nb-4'><Link className='navLink' to='/blog'>Blog</Link></div>
                         <div className='navButton'id='nb-5'> Contact </div>
                     </nav>
