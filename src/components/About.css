@@ -44,7 +44,9 @@ img{
 a{
     text-decoration: none;
 }
-
+.handles:visited {
+    color: #666
+}
 p{
     padding:20px
 }
@@ -55,6 +57,4 @@ p{
     font-family: "Abel";
     font-weight: 900;
     letter-spacing: 2px;
-    background-color: blue;
-
 }
