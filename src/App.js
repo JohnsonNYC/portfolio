@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom'
 import './App.css';
-import HomePage from './components/Home'
+import HomePage from './components/HomePage'
 import AboutPage from './components/AboutPage'
 import BlogPage from './components/BlogPage'
 import PortfolioPage from './components/PortfolioPage'

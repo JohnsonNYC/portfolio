@@ -20,6 +20,12 @@ const About = () => {
 
                 <img className='portrait' src={require("../png/Johnson-01378.jpg")} alt='Portrait' />
             </div>
+            <div className='social-media-handles'>
+                <p> LinkedIn: <a href="https://www.linkedin.com/in/johnson-kow/">@johnson-kow</a> </p>
+                <p> GitHub: <a href="https://github.com/JohnsonNYC">@JohnsonNYC</a></p>
+                <p> Twitter: <a href=" ">@TheJohnsonKow</a></p>
+                <p> Medium: <a href=" ">@jkow</a></p>
+            </div>
         </div>
     );
 }

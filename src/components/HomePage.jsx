@@ -6,7 +6,7 @@ import HomeBanner from './HomeBanner'
 import About from './About'
 import Blog from './Blog'
 import VideoContainer from './VideoContainer'
-import './Home.css'
+import './HomePage.css'
 
 const HomePage = () => {
     return (

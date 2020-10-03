@@ -4,8 +4,7 @@ import './PortfolioPage.css'
 const PortfolioPage = () => {
     return ( 
         <div>
-            Hello Logan!
-            Hello Neighbour!!
+            
         </div>
     );
 }

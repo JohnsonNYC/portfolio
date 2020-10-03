@@ -40,3 +40,21 @@ img{
     word-wrap: normal;
     padding: 8px;
 }
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding:20px
+}
+
+.social-media-handles{
+    align-self: inherit;
+    display: flex;
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 2px;
+    background-color: blue;
+
+}
