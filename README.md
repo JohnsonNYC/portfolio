@@ -1,19 +1,19 @@
 ## Portfolio Build
 Check List 
 
-HomePage
+# HomePage
   - Navbar √
   - Banner √
   - About √
   - Blog √
   - Video Container √
-AboutPage
+# AboutPage
  - About √
-Portfolio Page
+# Portfolio Page
   - Blogs
   - Video Container
-BlogPage
+# BlogPage
   - Blogs
-ContactPage
+# ContactPage
   - Links to: Linkedin, twitter, github?
 
