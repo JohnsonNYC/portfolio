@@ -8,12 +8,16 @@ Check List
   - Blog √
   - Video Container √
 # AboutPage
+ - Navbar √
  - About √
 # Portfolio Page
+  - Navbar
   - Blogs
   - Video Container
 # BlogPage
+  - Navbar
   - Blogs
 # ContactPage
+  - Navbar
   - Links to: Linkedin, twitter, github?
 
