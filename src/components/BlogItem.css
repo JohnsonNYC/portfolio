@@ -25,9 +25,9 @@
     letter-spacing: 1px;
     font-size: 20px;
     color: #666;
-    /* background-color: orchid; */
     max-width: 18rem;
     text-align: center;
+    /* background-color: orchid; */
 }
 
 .blog-link:visited { text-decoration: none; color:#666; }
