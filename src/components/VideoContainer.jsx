@@ -8,23 +8,23 @@ const VideoContainer = () => {
             <iframe
                 title="Picology"
                 src="https://www.youtube.com/embed/Bow4BPYAJlg"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
             />
             <iframe 
                 title='Travel Rails'
                 src="https://www.youtube.com/embed/AUwPwo0MrgE"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
             />
             <iframe
                 title='Study Beans'
                 src="https://www.youtube.com/embed/UjEURK5LSIo"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
             />
         </div>
     );

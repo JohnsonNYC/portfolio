@@ -12,9 +12,7 @@ const Blog = () => {
     const [blogs] = useState(data)
     const [displayIndex, setDisplayIndex] = useState(0)
     const [stack,setStack] = useState([])
-    
-    console.log(stack)
-    console.log(displayIndex)
+
 
     useEffect( ()=> {
         let newStack = blogs.slice(displayIndex,displayIndex+3) //copy[]
