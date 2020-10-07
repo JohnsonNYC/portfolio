@@ -5,9 +5,10 @@
     background-position: 0% 70%;
 }
 
-.video-container{
+.project-summary{
     display:flex;
-    align-content: center;
+    background-color: brown;
+    margin-bottom: 1rem;
 }
 
 iframe{
