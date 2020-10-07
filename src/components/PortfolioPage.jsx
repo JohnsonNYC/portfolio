@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from './Navbar'
 import './PortfolioPage.css'
-import data from './data/data.json';
 
 const PortfolioPage = () => {
+    
     return (
         <div id='navbar-page'>
             <div id='portfolio-banner'>

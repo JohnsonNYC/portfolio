@@ -3,6 +3,19 @@ import 'fontsource-archivo-narrow'
 import './About.css'
 
 const About = () => {
+
+    const renderSocialHandles = () => {
+        if (window.location.pathname === '/about') {
+            return (
+                <div className='social-media-handles'>
+                    <p> LinkedIn: <a className='handles' href="https://www.linkedin.com/in/johnson-kow/" target='_blank' rel='noopener noreferrer'>@johnson-kow</a> </p>
+                    <p> GitHub: <a className='handles' href="https://github.com/JohnsonNYC" target='_blank' rel='noopener noreferrer'>@JohnsonNYC</a></p>
+                    <p> Twitter: <a className='handles' href="https://twitter.com/TheJohnsonKow" target='_blank' rel='noopener noreferrer'>@TheJohnsonKow</a></p>
+                    <p> Medium: <a className='handles' href="https://medium.com/@jkow95_34338" target='_blank' rel='noopener noreferrer'>@jkow</a></p>
+                </div>
+            )
+        }
+    }
     return (
         <div className='about'>
             <div className='subtitle'>
@@ -20,12 +33,7 @@ const About = () => {
 
                 <img className='portrait' src={require("../png/Johnson-01378.jpg")} alt='Portrait' />
             </div>
-            <div className='social-media-handles'>
-                <p> LinkedIn: <a className='handles' href="https://www.linkedin.com/in/johnson-kow/" target='_blank' rel='noopener noreferrer'>@johnson-kow</a> </p>
-                <p> GitHub: <a   className='handles' href="https://github.com/JohnsonNYC" target='_blank' rel='noopener noreferrer'>@JohnsonNYC</a></p>
-                <p> Twitter: <a  className='handles' href="https://twitter.com/TheJohnsonKow" target='_blank' rel='noopener noreferrer'>@TheJohnsonKow</a></p>
-                <p> Medium: <a   className='handles' href="https://medium.com/@jkow95_34338" target='_blank' rel='noopener noreferrer'>@jkow</a></p>
-            </div>
+            {renderSocialHandles()}
         </div>
     );
 }

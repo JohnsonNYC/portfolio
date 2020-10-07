@@ -4,3 +4,13 @@
     background-size: cover;
     background-position: 0% 70%;
 }
+
+.video-container{
+    display:flex;
+    align-content: center;
+}
+
+iframe{
+    width:600px;
+    height: 400px;
+}

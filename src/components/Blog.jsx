@@ -9,10 +9,12 @@ import 'fontsource-abel';
 // div to take user to your medium article page!
 
 const Blog = () => {
+
     const [blogs] = useState(data)
     const [displayIndex, setDisplayIndex] = useState(0)
     const [stack,setStack] = useState([])
 
+    // console.log(window.location.pathname)
 
     useEffect( ()=> {
         let newStack = blogs.slice(displayIndex,displayIndex+3) //copy[]
