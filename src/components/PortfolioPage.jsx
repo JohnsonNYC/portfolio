@@ -20,8 +20,13 @@ const PortfolioPage = () => {
                         allowFullScreen
                     />
                     <div className='project-description'>
-                        <p><strong>Description 1 </strong></p>
-                        <p>hello there</p>
+                        <p><strong>Picology </strong></p>
+                        {/* <p className='description-line'>
+                            Picology is an online ecommerce website for users to purchase photographic prints.
+                            The user is able to browse images and specify keyword for their search.
+                            Users can add pictures to their cart and update the quantity for each product.
+                            Website will require user to login and fill address form for delivery purposes.
+                        </p> */}
                     </div>
 
                 </div>
@@ -34,7 +39,7 @@ const PortfolioPage = () => {
                         allowFullScreen
                     />
                     <div className='project-description'>
-                        <p><strong> Description 2 </strong></p>
+                        <p><strong> Travel Rails </strong></p>
                     </div>
                 </div>
 
@@ -47,7 +52,7 @@ const PortfolioPage = () => {
                         allowFullScreen
                     />
                     <div className='project-description'>
-                        <p> <strong>Description 3</strong> </p>
+                        <p> <strong>Study Beans</strong> </p>
                     </div>
                 </div>
             </div>

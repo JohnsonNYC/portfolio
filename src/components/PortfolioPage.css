@@ -7,7 +7,7 @@
 
 .project-summary{
     display:flex;
-    background-color: brown;
+    /* background-color: brown; */
     margin-bottom: 1rem;
 }
 
@@ -16,11 +16,17 @@ iframe{
     height: 400px;
 }
 
-strong {
+strong{
     font-family: "Archivo Narrow";
 }
 
 .project-description{
     display:flex; 
     flex-direction: column;
+}
+
+.description-line{
+    font-family: "Archivo Narrow";
+    word-break: break-all;
+    white-space: normal;
 }
