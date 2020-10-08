@@ -19,7 +19,11 @@ const PortfolioPage = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     />
-                    <p>Description 1</p>
+                    <div className='project-description'>
+                        <p><strong>Description 1 </strong></p>
+                        <p>hello there</p>
+                    </div>
+
                 </div>
                 <div className='project-summary'>
                     <iframe
@@ -29,7 +33,9 @@ const PortfolioPage = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     />
-                    <p> Description 2 </p>
+                    <div className='project-description'>
+                        <p><strong> Description 2 </strong></p>
+                    </div>
                 </div>
 
                 <div className='project-summary'>
@@ -40,7 +46,9 @@ const PortfolioPage = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     />
-                    <p> Description 3 </p>
+                    <div className='project-description'>
+                        <p> <strong>Description 3</strong> </p>
+                    </div>
                 </div>
             </div>
         </div>
