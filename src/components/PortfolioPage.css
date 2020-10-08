@@ -16,9 +16,6 @@ iframe{
     height: 400px;
 }
 
-strong{
-    font-family: "Archivo Narrow";
-}
 
 .project-description{
     display:flex; 
