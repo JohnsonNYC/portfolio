@@ -59,3 +59,8 @@ hr{
     font-weight: bolder;
     margin-top: 3rem;
 }
+
+.readmore{
+    text-decoration: none;
+    color: white;
+}
