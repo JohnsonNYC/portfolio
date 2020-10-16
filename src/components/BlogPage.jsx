@@ -11,7 +11,7 @@ const BlogPage = () => {
             </div>
             <div className='blog-container'>
                 {data.map((blog)=>
-                    <li>{blog.title}</li>
+                    <div className='blog-item'><img src={blog.imgSrc}/>{blog.title}</div>
                 )}
             </div>
         </div>
