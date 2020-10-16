@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import BlogItem from './BlogItem'
 import data from './data/data.json';
+import {Link} from 'react-router-dom'
 import './Blog.css';
 import 'fontsource-abel';
 
@@ -35,6 +36,7 @@ const Blog = () => {
     }
 
 
+
     return (
         <div className='blog'>
             <hr/>
@@ -53,7 +55,7 @@ const Blog = () => {
                         return <BlogItem key={blog.id} blog={blog}/>
                     })}
                 </div>
-            <button id='read-more'> Read More </button>
+            <button id='read-more'><Link to='/blog'> Read More </Link></button>
         </div>
     );
 }
