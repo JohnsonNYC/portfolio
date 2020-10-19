@@ -11,7 +11,18 @@ const BlogPage = () => {
             </div>
             <div className='blog-container'>
                 {data.map((blog)=>
-                    <div className='blog-item'><img src={blog.imgSrc} alt=''/>{blog.title}</div>
+                    <article className='blog-item'> 
+                        <header className='blog-header'> 
+                            <div> Insert Date Here</div>
+                            <h1> Insert Blog Title Here</h1>
+                        </header>
+                        <div>
+                            <div className='summary'> Enter Description here</div>
+                            <p>
+                                <a href={blog.url}>Read More</a>
+                            </p>
+                        </div>
+                    </article>
                 )}
             </div>
         </div>

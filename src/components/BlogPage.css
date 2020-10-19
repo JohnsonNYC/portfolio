@@ -10,3 +10,8 @@ img{
     height: 15rem;
     object-fit: cover;
 }
+
+.blog-page{
+    display: flex;
+    flex-direction: column;
+}
