@@ -11,7 +11,28 @@ img{
     object-fit: cover;
 }
 
-.blog-page{
+.blog-header{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: coral; */
+}
+
+.summary{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-item{
+    display:flex;
+    flex-direction: column;
+}
+
+article{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    /* background-color: cadetblue; */
 }
