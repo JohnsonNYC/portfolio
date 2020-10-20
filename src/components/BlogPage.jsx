@@ -7,13 +7,13 @@ const BlogPage = () => {
     return (
         <div id='blog-page'>
             <div id='blog-banner'>
-                <Navbar /> 
+                <Navbar />
             </div>
             <div className='blog-container'>
-                {data.map((blog)=>
-                    <article className='blog-item'> 
-                        <header className='blog-header'> 
-                            <div> Insert Date Here</div>
+                {data.map((blog) =>
+                    <article className='blog-item'>
+                        <header className='blog-header'>
+                            <div> {blog.date}</div>
                             <h1> {blog.title}</h1>
                         </header>
                         <div className='summary'>
