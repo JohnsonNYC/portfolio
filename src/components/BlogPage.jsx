@@ -17,8 +17,8 @@ const BlogPage = () => {
                         </div>
                         <div className='blog-information'>
                             <div className='date'>{blog.date}</div>
-                            <div className='title'>{blog.title}</div>
-                            <div className='Description'> {blog.description}</div>
+                            <h1 className='title'>{blog.title}</h1>
+                            <div className='description'> {blog.description}</div>
                         </div>
                     </div>
                 )}

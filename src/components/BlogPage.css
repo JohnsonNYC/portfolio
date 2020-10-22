@@ -9,45 +9,38 @@ img{
     width:20rem;
     height: 15rem;
 }
-.blog-img{
-    background-color: darkblue;
+.date{
+    font-family: "Bebas Neue";
+    padding-left: 10px;
+}
+
+.title{
+    font-family: "Bebas Neue";
+    margin: 0;
+    padding-left: 10px;
+}
+
+.description{
+    font-family:"Archivo Narrow";
+    color: gray
+
 }
 .blog-item{
     display: flex;
     max-width: 70%;
     height:auto;
+    border-style: solid;
 }
 
 .blog-information{
     display:flex;
     flex-direction: column;
-    max-width: 50%
+    max-width: 50%;
 }
 
-
-/* .blog-header{
-    display: flex;
+.blog-container{
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: coral;
 }
-
-.summary{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: cornflowerblue;
-}
-
-.blog-item{
-    display:flex;
-    background-color: crimson;
-}
-
-article{
-    display:flex;
-    justify-content: center;
-    align-self: center;
-    background-color: cadetblue;
-} */
