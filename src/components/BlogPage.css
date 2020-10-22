@@ -20,6 +20,10 @@ img{
     padding-left: 10px;
 }
 
+.read-more{
+    padding-left: 10px;
+    font-family:"Archivo Narrow";
+}
 .description{
     font-family:"Archivo Narrow";
     color: gray
