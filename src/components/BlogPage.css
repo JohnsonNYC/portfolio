@@ -8,31 +8,46 @@
 img{
     width:20rem;
     height: 15rem;
-    object-fit: cover;
+}
+.blog-img{
+    background-color: darkblue;
+}
+.blog-item{
+    display: flex;
+    max-width: 70%;
+    height:auto;
 }
 
-.blog-header{
+.blog-information{
+    display:flex;
+    flex-direction: column;
+    max-width: 50%
+}
+
+
+/* .blog-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: coral; */
+    background-color: coral;
 }
 
 .summary{
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-color: cornflowerblue;
 }
 
 .blog-item{
     display:flex;
-    flex-direction: column;
+    background-color: crimson;
 }
 
 article{
     display:flex;
     justify-content: center;
     align-self: center;
-    /* background-color: cadetblue; */
-}
+    background-color: cadetblue;
+} */

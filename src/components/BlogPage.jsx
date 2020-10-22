@@ -11,18 +11,16 @@ const BlogPage = () => {
             </div>
             <div className='blog-container'>
                 {data.map((blog) =>
-                    <article className='blog-item'>
-                        <header className='blog-header'>
-                            <div> {blog.date}</div>
-                            <h1> {blog.title}</h1>
-                        </header>
-                        <div className='summary'>
-                            <div> Enter Description here</div>
-                            <p>
-                                <a href={blog.url}>Read More</a>
-                            </p>
+                    <div className='blog-item'>
+                        <div className="blog-img">
+                            <img src={blog.imgSrc} alt={blog.title}/>
                         </div>
-                    </article>
+                        <div className='blog-information'>
+                            <div className='date'>{blog.date}</div>
+                            <div className='title'>{blog.title}</div>
+                            <div className='Description'> {blog.description}</div>
+                        </div>
+                    </div>
                 )}
             </div>
         </div>
@@ -30,3 +28,17 @@ const BlogPage = () => {
 }
 
 export default BlogPage;
+
+// {/* <article className='blog-item'>
+//                         <img src={blog.imgSrc}/>
+//                         <header className='blog-header'>
+//                             <div> {blog.date}</div>
+//                             <h1> {blog.title}</h1>
+//                         </header>
+//                         <div className='summary'>
+//                             <div>{blog.description}</div>
+//                             <p>
+//                                 <a href={blog.url}>Read More</a>
+//                             </p>
+//                         </div>
+//                     </article> */}
