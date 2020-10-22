@@ -31,8 +31,9 @@ const About = () => {
                     <p className='about-text'> I'M INSPIRED BY VARIOUS ART MEDIUMS AND CONSIDER WEB DEVLEOPLMENT AS ANOTHER PLATFORM TO EXPRESS VISUAL ART. THE PHOTOS USED FOR THIS WEBSITE WERE TAKEN BY YOURS TRULY.</p>
                     <p className='about-text'> MY STACK INCLUDES JAVASCRIPT, REACT.JS, AND RUBY ON RAILS. </p>
                 </div>
-
-                <img className='portrait' src={require("../png/Johnson-01378.jpg")} alt='Portrait' />
+                <div className='portrait'>
+                    <img className='portrait' src={require("../png/Johnson-01378.jpg")} alt='Portrait' />
+                </div>
             </div>
             {renderSocialHandles()}
         </div>
