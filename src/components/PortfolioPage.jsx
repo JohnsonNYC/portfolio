@@ -20,16 +20,15 @@ const PortfolioPage = () => {
                         allowFullScreen
                     />
                     <div className='project-description'>
-                        <p><strong>Picology </strong></p>
-                        {/* <p className='description-line'>
-                            Picology is an online ecommerce website for users to purchase photographic prints.
-                            The user is able to browse images and specify keyword for their search.
-                            Users can add pictures to their cart and update the quantity for each product.
-                            Website will require user to login and fill address form for delivery purposes.
-                        </p> */}
+                        <h2><strong>Picology </strong></h2>
+                        <div classname='project-description-text'> 
+                            An ecommerce website where users can buy digital prints from their favorite artists. 
+                            Users will be able to browse through the collection of digital prints through the search bar or through filter.
+                            Users have a cart that can hold a varity of prints of various quantities and checkout their products.
+                            This application was inpsired by my mutual interest of photography and drones with my project partner. 
+                        </div>
                     </div>
-
-                </div>
+                </div> 
                 <div className='project-summary'>
                     <iframe
                         title='Travel Rails'

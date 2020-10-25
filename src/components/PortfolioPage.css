@@ -7,12 +7,12 @@
 
 .project-summary{
     display:flex;
-    /* background-color: brown; */
     margin-bottom: 1rem;
+    width: 75%;
 }
 
 iframe{
-    width:600px;
+    min-width:600px;
     height: 400px;
 }
 
@@ -20,6 +20,7 @@ iframe{
 .project-description{
     display:flex; 
     flex-direction: column;
+    min-width: 40%;    
 }
 
 .description-line{
