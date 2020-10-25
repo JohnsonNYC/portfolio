@@ -26,8 +26,8 @@ img{
 }
 .summary{
     font-family:"Archivo Narrow";
-    color: gray
-
+    color: gray;
+    padding-left: 10px;
 }
 .blog-item{
     display: flex;
