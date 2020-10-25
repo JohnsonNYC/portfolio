@@ -24,7 +24,7 @@ img{
     padding-left: 10px;
     font-family:"Archivo Narrow";
 }
-.description{
+.summary{
     font-family:"Archivo Narrow";
     color: gray
 
@@ -33,7 +33,7 @@ img{
     display: flex;
     max-width: 70%;
     height:auto;
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 .blog-information{
