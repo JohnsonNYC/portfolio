@@ -10,6 +10,9 @@ const BlogPage = () => {
                 <Navbar />
             </div>
             <div className='blog-container'>
+            <div className='subtitle'>
+                Blog
+            </div>
                 {data.map((blog) =>
                     <div className='blog-item'>
                         <div className="blog-img">
