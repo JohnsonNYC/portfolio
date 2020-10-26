@@ -39,6 +39,12 @@ const PortfolioPage = () => {
                     />
                     <div className='project-description'>
                         <p><strong> Travel Rails </strong></p>
+                        <div classname='project-description-text'> 
+                            An online reservation system that aims to mimic AirBNB. With this application, upon sign up, you can a host or a customer. 
+                            As a host you will be able to create several listings of your space and customizing rates. As a customer, you will be able to 
+                            reserve a room of your liking for an alloted amount of time. You can edit you reservation or completely delete it if you'd like.
+                            Your profile will have you information as both a host and a guest with history logs. 
+                        </div>
                     </div>
                 </div>
 
