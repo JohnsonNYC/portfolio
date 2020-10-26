@@ -1,6 +1,37 @@
-[
-    {
+[   {
         "id":1,
+        "title":"AWS: Security in the Cloud",
+        "url": "https://johnsonkow.medium.com/aws-security-in-the-cloud-bfacbad38acd",
+        "imgSrc": "https://miro.medium.com/max/700/1*nNoMZOTdKnlq4o1mO2KQCg.jpeg",
+        "date": "October 26, 2020", 
+        "description": ""
+    },
+    {
+        "id":2,
+        "title":"AWS: Billing and Pricing",
+        "url": "https://johnsonkow.medium.com/aws-billing-and-pricing-6635537b25f6",
+        "imgSrc": "https://miro.medium.com/max/700/1*C_UKLBD2qdR0mxZGIpi7VA.jpeg",
+        "date": "October 19, 2020", 
+        "description": ""
+    },
+    {
+        "id":3,
+        "title":"AWS: Architecting for the Cloud",
+        "url": "https://johnsonkow.medium.com/aws-architecting-for-the-cloud-323f7cbe54fd",
+        "imgSrc": "",
+        "date": "October 12, 2020", 
+        "description": ""
+    },
+    {
+        "id":4,
+        "title":"Dyanmic Programming: Intro",
+        "url": "https://johnsonkow.medium.com/dynamic-programming-intro-3f7c3825a342",
+        "imgSrc": "",
+        "date": "October 8, 2020", 
+        "description": ""
+    },
+    {
+        "id":5,
         "title":"The First Interview",
         "url":"https://medium.com/@jkow95_34338/the-first-interview-9eeedb07f1e9",
         "imgSrc":"https://miro.medium.com/max/512/1*VrC0URjq50-WgoNCcH1DxA.jpeg",
@@ -8,7 +39,7 @@
         "description": "A short story detailing my first experience interviewing for a Fullstack Developer Position out in Texas. During my interview, I was nervous, anxious, and honestly scared but my interviewers calmed me. I was tested on my understanding of the internet, backend engineering with Python, and frontend engineering with React."
     },
     {
-        "id":2,
+        "id":6,
         "title":"Big Brain Time: FizzBuzz",
         "url":"https://medium.com/@jkow95_34338/big-brain-time-fizzbuzz-8e9f372d9d64",
         "imgSrc":"https://miro.medium.com/max/512/1*wYqBEry-Px9oZI1PnoB_dw.jpeg",
@@ -16,7 +47,7 @@
         "description": " Most people know how to solve this problem as it's one of the first algo problems you'll get as a junior developer. I noticed that most poeple solve it the same way which is by creating multiple conditionals but I found that this way is much better."
     },
     {
-        "id":3,
+        "id":7,
         "title":"AWS : The different types of Databases",
         "url":"https://medium.com/@jkow95_34338/aws-the-different-types-of-databases-51684b759c12",
         "imgSrc":"https://miro.medium.com/max/512/1*I45VoCNt8ZgoGJVfyxKuYg.jpeg",
@@ -24,7 +55,7 @@
         "description": "Moving along with my AWS course, I go into the different types of databases offered by AWS and the difference between relational and non relational databases."
     },
     {
-        "id":4,
+        "id":8,
         "title":"AWS: Storage and Servers",
         "url":"https://medium.com/@jkow95_34338/aws-storage-and-servers-2ef48d7676f1",
         "imgSrc":"https://miro.medium.com/max/512/1*Ri0dMoX3bqjbjMiy1fDvGA.jpeg",
@@ -32,7 +63,7 @@
         "description": "A short desription of the difference storage and server services offered by AWS such as EC2 instances and S3 buckets. "
     },
     {
-        "id":5,
+        "id":9,
         "title":"AWS Introduction",
         "url":"https://medium.com/@jkow95_34338/aws-introduction-eccd3a4719e6",
         "imgSrc":"https://miro.medium.com/max/512/1*AhqmmyG7A49bJ21bt4axiA.jpeg",
@@ -40,7 +71,7 @@
         "description": "An introduction to cloud computing; what it is, what it does, and why companies are moving in this direction of cloud computing."
     },
     {
-        "id":6,
+        "id":10,
         "title":"Valid Sudoku Challenge",
         "url":"https://medium.com/@jkow95_34338/valid-sudoku-challenge-c5a1fc4080c6",
         "imgSrc":"https://miro.medium.com/max/512/1*oMTzhzaE96kwj4b4hQkkgg.jpeg",
@@ -48,7 +79,7 @@
         "description": "I recently had a code challenge for a job opportunity that wanted me to validate if a sudoku board was valid or not. In this blog, I go over how I solved it but I'd like to hear how other people have solved this!"
     },
     {
-        "id":7,
+        "id":11,
         "title":"React Native Week 2: Navigation",
         "url":"https://medium.com/@jkow95_34338/react-native-week-2-navigation-62bc876c2bff",
         "imgSrc":"https://miro.medium.com/max/512/1*dG2Bp7yPRlfThh24zrff_A.jpeg",
@@ -56,7 +87,7 @@
         "description": "While I was learning React Native, I wondered how navigation would work. I recently got to the point in my development where I need to navigate. Follow me through my journey as I implement and learn about React Native Routing/ Navigation."
     },
     {
-        "id":8,
+        "id":12,
         "title":"Learning React Native: Week 1",
         "url":"https://medium.com/@jkow95_34338/learning-react-native-week-1-bbc64325a2da",
         "imgSrc":"https://miro.medium.com/max/512/1*Bkslrnbv_ustbylfcZ9Mpg.png",
@@ -64,7 +95,7 @@
         "description": "With my understanding of React, I figured I would tackle React native since I assumed the only change was the display size of my app. I was wrong. Learn about the different elements used for React Native and how to start coding you first mobile application. "
     },
     {
-        "id":9,
+        "id":13,
         "title":"Ruby on Rails: SQlite3 to PostgreSQL",
         "url":"https://medium.com/@jkow95_34338/ruby-on-rails-sqlite3-to-postgresql-8eb9ebb21db7",
         "imgSrc":"https://miro.medium.com/max/512/1*BD7NJHGp_TFT4QaCYGXRAw.jpeg",
@@ -72,7 +103,7 @@
         "description": " I'm always using Ruby on Rails for my API developement but sometimes I forget to change my database from SQLite3 to PostgreSQL. If you're like me, this blog aims to show you how to change you database type when you're deep into your development. You do not need to start over, thankfully!"
     },
     {
-        "id":10,
+        "id":14,
         "title":"Svelte vs React",
         "url":"https://medium.com/@jkow95_34338/svelte-vs-react-e63dd7d16155",
         "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
@@ -80,7 +111,7 @@
         "description":"I'm currently learning React.js and I can't say that I'm a huge fan of it. My friend told me about Svelte and after reading the documents, I found that this may be something that I might like for frontend development. Check out the differences between React and Svelte and why I think Svelte may be top framework for frontend development."
     },
     {
-        "id":11,
+        "id":15,
         "title":"Noise Cancellation",
         "url":"https://medium.com/@jkow95_34338/noise-cancellation-afd2f48e2fb1",
         "imgSrc":"https://miro.medium.com/max/261/0*Q8-VhArkcAzQqurc.png",
@@ -88,7 +119,7 @@
         "description": "Join me in my understanding of noise cancellation technology and the phyiscs behind sound waves to understand how our favorite headphones gives us quiet bliss."
     },
     {
-        "id":12,
+        "id":16,
         "title":"Bluetooth",
         "url":"https://medium.com/@jkow95_34338/bluetooth-57c230c7c595",
         "imgSrc":"https://miro.medium.com/max/370/0*pymetebaY93K18ZL.png",
@@ -96,7 +127,7 @@
         "description":"An introduction to bluetooth technology that answers how devices to one another or how multiple devices to connect to one master device. "
     },
     {
-        "id":13,
+        "id":17,
         "title":"Flying with Artificial Intelligence",
         "url":"https://medium.com/@jkow95_34338/flying-with-artificial-intelligence-9c21b32d5d7e",
         "imgSrc":"https://miro.medium.com/max/512/0*EQ9ZOnFwJ7SCjoH8.jpg",
