@@ -4,7 +4,7 @@
         "url": "https://johnsonkow.medium.com/aws-security-in-the-cloud-bfacbad38acd",
         "imgSrc": "https://miro.medium.com/max/700/1*nNoMZOTdKnlq4o1mO2KQCg.jpeg",
         "date": "October 26, 2020", 
-        "description": ""
+        "description": "Learn about how to apply security resources on your app to prevent from hackers hacking or DDOS attacks. In this blog, you'll learn about security in the cloud and the shared responsibilites of AWS and the customer. "
     },
     {
         "id":2,
@@ -12,7 +12,7 @@
         "url": "https://johnsonkow.medium.com/aws-billing-and-pricing-6635537b25f6",
         "imgSrc": "https://miro.medium.com/max/700/1*C_UKLBD2qdR0mxZGIpi7VA.jpeg",
         "date": "October 19, 2020", 
-        "description": ""
+        "description": "It seems like there are so many things to look out for when using AWS when it comes to pricing and costs. To help keep track of everything, AWS has a couple of resources to help track multiple resources into a single bill with a breakdown of what each resrource costs. "
     },
     {
         "id":3,
@@ -20,7 +20,7 @@
         "url": "https://johnsonkow.medium.com/aws-architecting-for-the-cloud-323f7cbe54fd",
         "imgSrc": "https://miro.medium.com/max/700/1*S31mr5mFIT4dSOrXaCU2Kw.jpeg",
         "date": "October 12, 2020", 
-        "description": ""
+        "description": "After finishing my curriculm for the day, the instructor suggested that we take a look at the whitepapers that Amazon has published. This blog is meant to be a refined version of the whitepaper."
     },
     {
         "id":4,
@@ -28,7 +28,7 @@
         "url": "https://johnsonkow.medium.com/dynamic-programming-intro-3f7c3825a342",
         "imgSrc": "https://miro.medium.com/max/700/1*_DtxVcpSGU8vt43FaHx9hg.jpeg",
         "date": "October 8, 2020", 
-        "description": ""
+        "description": " This blog aims at dynamic programming. This was a topic that I wanted to blog about for sometime on a problem that most developers see during their interview process. The fibonacci sequence is one of the first algos developers learn to solve recursively but sometimes recursive functions are slow. "
     },
     {
         "id":5,
