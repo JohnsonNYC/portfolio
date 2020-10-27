@@ -58,6 +58,13 @@ const PortfolioPage = () => {
                     />
                     <div className='project-description'>
                         <p> <strong>Study Beans</strong> </p>
+                        <div classname='project-description-text'> 
+                            An online reservation system for remote workers, students, or anyone that requires a space to place their laptop to get work done.
+                            As a user you will be able to browse through a varitey of cafes throughout nyc that have updates on their seat availability. 
+                            When you make a reservation, you'll have 10 minutes to get to your destination. After the 10 minute mark, your reservation is withdrawn. 
+                            This idea was inpsired by my time as a student during university as I could never find a seat, so I'd spend a considerable amount of time 
+                            searching for a seat instead of getting work done. This app mitigates that time spent looking so that you have all the time to get to the knitty gritty.  
+                        </div>
                     </div>
                 </div>
             </div>
