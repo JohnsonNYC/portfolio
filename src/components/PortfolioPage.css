@@ -16,6 +16,9 @@ iframe{
     height: 400px;
 }
 
+strong{
+    font-family:'Bebas Neue'
+}
 
 .project-description{
     display:flex; 
@@ -23,8 +26,6 @@ iframe{
     min-width: 40%;    
 }
 
-.description-line{
-    font-family: "Archivo Narrow";
-    word-break: break-all;
-    white-space: normal;
+.project-description-text{
+    font-family:'Archivo Narrow'
 }

@@ -21,7 +21,7 @@ const PortfolioPage = () => {
                     />
                     <div className='project-description'>
                         <h2><strong>Picology </strong></h2>
-                        <div classname='project-description-text'> 
+                        <div className='project-description-text'> 
                             An ecommerce website where users can buy digital prints from their favorite artists. 
                             Users will be able to browse through the collection of digital prints through the search bar or through filter.
                             Users have a cart that can hold a varity of prints of various quantities and checkout their products.
@@ -39,7 +39,7 @@ const PortfolioPage = () => {
                     />
                     <div className='project-description'>
                         <p><strong> Travel Rails </strong></p>
-                        <div classname='project-description-text'> 
+                        <div className='project-description-text'> 
                             An online reservation system that aims to mimic AirBNB. With this application, upon sign up, you can a host or a customer. 
                             As a host you will be able to create several listings of your space and customizing rates. As a customer, you will be able to 
                             reserve a room of your liking for an alloted amount of time. You can edit you reservation or completely delete it if you'd like.
@@ -58,7 +58,7 @@ const PortfolioPage = () => {
                     />
                     <div className='project-description'>
                         <p> <strong>Study Beans</strong> </p>
-                        <div classname='project-description-text'> 
+                        <div className='project-description-text'> 
                             An online reservation system for remote workers, students, or anyone that requires a space to place their laptop to get work done.
                             As a user you will be able to browse through a varitey of cafes throughout nyc that have updates on their seat availability. 
                             When you make a reservation, you'll have 10 minutes to get to your destination. After the 10 minute mark, your reservation is withdrawn. 
