@@ -52,7 +52,7 @@
         "url":"https://medium.com/@jkow95_34338/aws-the-different-types-of-databases-51684b759c12",
         "imgSrc":"https://miro.medium.com/max/512/1*I45VoCNt8ZgoGJVfyxKuYg.jpeg",
         "date": "September 23, 2020",
-        "description": "Moving along with my AWS course, I go into the different types of databases offered by AWS and the difference between relational and non relational databases."
+        "description": "Moving along with my AWS course, I go into the different types of databases offered by AWS and the difference between relational and non relational databases. You'll understand the differences between the two and learn about OLAP and OLTP!"
     },
     {
         "id":8,
@@ -60,7 +60,7 @@
         "url":"https://medium.com/@jkow95_34338/aws-storage-and-servers-2ef48d7676f1",
         "imgSrc":"https://miro.medium.com/max/512/1*Ri0dMoX3bqjbjMiy1fDvGA.jpeg",
         "date":"September 16, 2020",
-        "description": "A short desription of the difference storage and server services offered by AWS such as EC2 instances and S3 buckets. "
+        "description": "A short desription of the difference storage and server services offered by AWS such as EC2 instances and S3 buckets. You'll learn about EC2 being your virtual maching and an S3 bucket just a place to store files like .txt or jpegs. Just to be clear, these two things are not the same thing and offer very different services."
     },
     {
         "id":9,
@@ -68,7 +68,7 @@
         "url":"https://medium.com/@jkow95_34338/aws-introduction-eccd3a4719e6",
         "imgSrc":"https://miro.medium.com/max/512/1*AhqmmyG7A49bJ21bt4axiA.jpeg",
         "date":"September 12, 2020",
-        "description": "An introduction to cloud computing; what it is, what it does, and why companies are moving in this direction of cloud computing."
+        "description": "An introduction to cloud computing; what it is, what it does, and why companies are moving in this direction of cloud computing. I dive into the reason cloud computing is better and how cost effiecient and cost effective it is. You'll learn about the fundamentals of the cloud such as different deployment methods, the kind of cloud services provided, and the advantages of the cloud."
     },
     {
         "id":10,
@@ -76,7 +76,7 @@
         "url":"https://medium.com/@jkow95_34338/valid-sudoku-challenge-c5a1fc4080c6",
         "imgSrc":"https://miro.medium.com/max/512/1*oMTzhzaE96kwj4b4hQkkgg.jpeg",
         "date": "September 2, 2020",
-        "description": "I recently had a code challenge for a job opportunity that wanted me to validate if a sudoku board was valid or not. In this blog, I go over how I solved it but I'd like to hear how other people have solved this!"
+        "description": "I recently had a code challenge for a job opportunity that wanted me to validate if a sudoku board was valid or not. In this blog, I go over how I solved it but I'd like to hear how other people have solved this! I'm also interested in learning of ways to work with matrices without using nested loops for a better Big O(n)."
     },
     {
         "id":11,
