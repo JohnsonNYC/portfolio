@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar'
-import './Contact.css'
+import Navbar from './Navbar';
+import './Contact.css';
+import {Parallax} from 'react-parallax'
+
+import background from '../png/Johnson Portrait 2.jpg'
 
 const Contact = () => {
     const [firstName, setFirstName] = useState("")
@@ -33,12 +36,14 @@ const Contact = () => {
 
     return (
         <div className='Contact'>
-            <div id='contact-banner'>
-                <Navbar />
-                <div className='contact-description-wrapper'>
-                    <p className='contact-banner-text'> Find out how to contact Johnson Kow</p>
+            <Parallax bgImage={background} strength={200}>
+                <div id='contact-banner'>
+                    <Navbar />
+                    <div className='contact-description-wrapper'>
+                        <p className='contact-banner-text'> Find out how to contact Johnson Kow</p>
+                    </div>
                 </div>
-            </div>
+            </Parallax>
             {!done ?
                 <div className='maintanence-message'> This Page Is Currently Down for Maintanence</div>
                 :
