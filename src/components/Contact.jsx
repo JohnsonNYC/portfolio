@@ -35,6 +35,9 @@ const Contact = () => {
         <div className='Contact'>
             <div id='contact-banner'>
                 <Navbar />
+                <div className='contact-description-wrapper'>
+                    <p className='contact-banner-text'> Find out how to contact Johnson Kow</p>
+                </div>
             </div>
             {!done ?
                 <div className='maintanence-message'> This Page Is Currently Down for Maintanence</div>
@@ -50,7 +53,7 @@ const Contact = () => {
                         <input id='Subject' placeholder='Subject*' type='text' value={subject} onChange={handleSubject} aria-required='true' />
                         <label id='message-label'> Message*</label>
                         <textarea id='Message' value={message} onChange={handleMessage} aria-required='true' />
-                        <input type='submit' value='submit'/>
+                        <input type='submit' value='submit' />
                     </form>
                     <div>
                         ADD HANDLES TO THE BOTTOM OF THIS PAGE
