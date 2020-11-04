@@ -8,9 +8,8 @@ const Contact = () => {
     const [email, setEmail] = useState("")
     const [subject, setSubject] = useState("")
     const [message, setMessage] = useState("")
-    const [done] = useState(false)
+    const [done] = useState(true)
 
-    console.log(lastName)
     let handleFN = (event) => {
         setFirstName(event.target.value)
     }
@@ -49,7 +48,7 @@ const Contact = () => {
                         </label>
                         <input id='Email' placeholder='Email*' type='text' value={email} onChange={handleEmail} aria-required='true' />
                         <input id='Subject' placeholder='Subject*' type='text' value={subject} onChange={handleSubject} aria-required='true' />
-                        <label> Message</label>
+                        <label id='message-label'> Message*</label>
                         <textarea id='Message' value={message} onChange={handleMessage} aria-required='true' />
                         <input type='submit' value='submit'/>
                     </form>
