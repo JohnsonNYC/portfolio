@@ -41,6 +41,9 @@ const AboutPage = () => {
             <Parallax bgImage={background} strength={150}>
                 <div id='about-banner'>
                     <Navbar />
+                    <div className='about-description-wrapper'>
+                        <p id='about-description-text'>Background, Passions, and Expectations</p>
+                    </div>
                 </div>
             </Parallax>
             <About />

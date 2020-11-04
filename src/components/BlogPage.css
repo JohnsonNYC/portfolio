@@ -47,3 +47,17 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+.blog-description-wrapper{
+    display:flex; 
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog-description-text{
+    color:white;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    letter-spacing: 2px;
+}

@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax'
 
 import Navbar from './Navbar'
 import './PortfolioPage.css'
-import background from '../png/Portfolio Header.jpg'
+import background from '../png/Portfolio Header 2.jpg'
 
 const PortfolioPage = () => {
 
@@ -12,6 +12,9 @@ const PortfolioPage = () => {
             <Parallax bgImage={background} strength={120}>
                 <div id='portfolio-banner'>
                     <Navbar />
+                    <div className='portfolio-description-wrapper'>
+                        <p id='portolio-description-text'>Practice, Practice, Practice</p>
+                    </div>
                 </div>
             </Parallax>
             <div className='video-container'>
