@@ -1,8 +1,12 @@
 import React from 'react';
+import { Parallax } from 'react-parallax'
+
 import About from './About'
 import Navbar from './Navbar'
 
 import './AboutPage.css'
+import background from '../png/About Header.jpg'
+
 const AboutPage = () => {
     const hobbiesRender = () => {
         if (window.location.pathname === '/about') {
@@ -34,9 +38,11 @@ const AboutPage = () => {
     }
     return (
         <div id='AboutPage'>
-            <div id='about-banner'>
-                <Navbar />
-            </div>
+            <Parallax bgImage={background} strength={150}>
+                <div id='about-banner'>
+                    <Navbar />
+                </div>
+            </Parallax>
             <About />
             {hobbiesRender()}
         </div>);
