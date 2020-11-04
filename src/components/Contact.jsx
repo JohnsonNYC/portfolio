@@ -8,7 +8,7 @@ const Contact = () => {
     const [email, setEmail] = useState("")
     const [subject, setSubject] = useState("")
     const [message, setMessage] = useState("")
-    const [done] = useState(true)
+    const [done] = useState(false)
 
     let handleFN = (event) => {
         setFirstName(event.target.value)
