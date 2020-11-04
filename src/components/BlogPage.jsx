@@ -1,22 +1,26 @@
 import React from 'react';
 import Navbar from './Navbar'
+import {Parallax} from 'react-parallax'
 import data from './data/data.json';
+import background from '../png/Blog Header.jpg'
 import './BlogPage.css'
 
 const BlogPage = () => {
     return (
         <div id='blog-page'>
-            <div id='blog-banner'>
-                <Navbar />
-            </div>
+            <Parallax bgImage={background} strength={100}>
+                <div id='blog-banner'>
+                    <Navbar />
+                </div>
+            </Parallax>
             <div className='blog-container'>
-            <div className='subtitle'>
-                Blog
+                <div className='subtitle'>
+                    Blog
             </div>
                 {data.map((blog) =>
                     <div className='blog-item'>
                         <div className="blog-img">
-                            <img src={blog.imgSrc} alt={blog.title}/>
+                            <img src={blog.imgSrc} alt={blog.title} />
                         </div>
                         <div className='blog-information'>
                             <div className='date'>{blog.date}</div>
@@ -24,7 +28,6 @@ const BlogPage = () => {
                             <div className='summary'> {blog.description}</div>
                             <a className='read-more' href={blog.url}>Read More</a>
                         </div>
-
                     </div>
                 )}
             </div>
