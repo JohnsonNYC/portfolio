@@ -10,3 +10,17 @@
     align-items: center;
     font-family: "Bebas Neue";
 }
+
+.about-description-wrapper{
+    display:flex; 
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-description-text{
+    color:white;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    letter-spacing: 2px;
+}

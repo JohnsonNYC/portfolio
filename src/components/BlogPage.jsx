@@ -11,6 +11,9 @@ const BlogPage = () => {
             <Parallax bgImage={background} strength={100}>
                 <div id='blog-banner'>
                     <Navbar />
+                    <div className='blog-description-wrapper'>
+                        <p id='blog-description-text'>Track my learning progress through my blogs</p>
+                    </div>
                 </div>
             </Parallax>
             <div className='blog-container'>
