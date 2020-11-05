@@ -13,9 +13,10 @@ const Blog = () => {
     const [stack,setStack] = useState([])
 
     useEffect( ()=> {
-        let newStack = blogs.slice(displayIndex,displayIndex+3) //copy[]
+        let newStack = blogs.slice(displayIndex,displayIndex+3)
         setStack(newStack)
         setDisplayIndex(displayIndex + 3)
+        // eslint-disable-next-line
     },[])
 
     let onNext = () => {
