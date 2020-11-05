@@ -31,7 +31,7 @@ const About = () => {
                         <a className='badge-link' href={'https://flatironschool.com/career-courses/coding-bootcamp'} target='_blank' rel='noopener noreferrer'>
                             <img className='AWS-badge' src={require("../png/flatironschoolbadge.png")} alt='Flatiron School Badge' />
                         </a>
-                        <div id='AWS-badge-description'> Earners of the software engineering certificate have done much more than simply build technical skills: they have maintained technical blogs to show they can credibly talk tech; they have become a part of the tech community; they have amassed an impressive portfolio of unique, functional web applications to show employers as they enter the job-search phase with the support of our Career Services team. </div>
+                        <div id='FI-badge-description'> Earners of the software engineering certificate have done much more than simply build technical skills: they have maintained technical blogs to show they can credibly talk tech; they have become a part of the tech community; they have amassed an impressive portfolio of unique, functional web applications to show employers as they enter the job-search phase with the support of our Career Services team. </div>
                     </div>
                 </div>
             )
