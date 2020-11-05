@@ -5,9 +5,6 @@ import {Link} from 'react-router-dom'
 import './Blog.css';
 import 'fontsource-abel';
 
-// Working Blog Renderer. 
-// Now workion BlogItem to render title and create onClick for each
-// div to take user to your medium article page!
 
 const Blog = () => {
 
@@ -15,18 +12,15 @@ const Blog = () => {
     const [displayIndex, setDisplayIndex] = useState(0)
     const [stack,setStack] = useState([])
 
-    // console.log(window.location.pathname)
-
     useEffect( ()=> {
         let newStack = blogs.slice(displayIndex,displayIndex+3) //copy[]
         setStack(newStack)
         setDisplayIndex(displayIndex + 3)
-        // eslint-disable-next-line
     },[])
 
     let onNext = () => {
 
-        if(displayIndex >= blogs.length){ // if index is greater than data length
+        if(displayIndex >= blogs.length){ 
             setStack(blogs.slice(0,3))
             setDisplayIndex(0)
         }else{

@@ -13,7 +13,7 @@ import background from '../png/banner picture.jpg'
 const HomePage = () => {
     return (
         <div className='home-page'>
-            <Parallax bgImage={background} strength={150}>
+            <Parallax bgImage={background} strength={-300}>
                 <div id='banner-wrapper'>
                     <Navbar />
                     <div className='banner'>

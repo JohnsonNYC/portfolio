@@ -9,7 +9,7 @@ const PortfolioPage = () => {
 
     return (
         <div id='navbar-page'>
-            <Parallax bgImage={background} strength={120}>
+            <Parallax bgImage={background} strength={500}>
                 <div id='portfolio-banner'>
                     <Navbar />
                     <div className='portfolio-description-wrapper'>

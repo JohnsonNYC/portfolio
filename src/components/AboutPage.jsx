@@ -57,7 +57,7 @@ const AboutPage = () => {
     }
     return (
         <div id='AboutPage'>
-            <Parallax bgImage={background} strength={150}>
+            <Parallax bgImage={background} strength={300}>
                 <div id='about-banner'>
                     <Navbar />
                     <div className='about-description-wrapper'>

@@ -23,8 +23,8 @@
     height: auto;
 }
 
-img{
-    max-width: 100%;
+.AWS-badge{
+    max-width: 10rem;
     height: auto;
 }
 
@@ -61,4 +61,20 @@ p{
     font-family: "Abel";
     font-weight: 900;
     letter-spacing: 2px;
+}
+
+.certs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    margin-left:16rem;
+    margin-right: 16rem;
+    margin-bottom: 10px;
+}
+
+#AWS-badge-description{
+    font-family: 'Archivo Narrow';
+    font-size: 20px;
+    margin-left: 2px;
 }

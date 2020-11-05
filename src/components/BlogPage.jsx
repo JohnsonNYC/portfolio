@@ -8,7 +8,7 @@ import './BlogPage.css'
 const BlogPage = () => {
     return (
         <div id='blog-page'>
-            <Parallax bgImage={background} strength={100}>
+            <Parallax bgImage={background} strength={-200}>
                 <div id='blog-banner'>
                     <Navbar />
                     <div className='blog-description-wrapper'>

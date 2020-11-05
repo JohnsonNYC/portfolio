@@ -16,6 +16,27 @@ const About = () => {
             )
         }
     }
+
+    const renderCerts = () => {
+        if (window.location.pathname === '/about') {
+            return (
+                <div className='certs-container'>
+                    <div className='certs'>
+                        <a className='badge-link' href={'https://www.youracclaim.com/badges/f6315f41-1479-4138-bd0f-04c473cb6644/public_url'} target='_blank' rel='noopener noreferrer'>
+                            <img className='AWS-badge' src={require("../png/aws-certified-cloud-practitioner.png")} alt='AWS Badge' />
+                        </a>
+                        <div id='AWS-badge-description'> Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects. </div>
+                    </div>
+                    <div className='certs'>
+                        <a className='badge-link' href={'https://www.youracclaim.com/badges/f6315f41-1479-4138-bd0f-04c473cb6644/public_url'} target='_blank' rel='noopener noreferrer'>
+                            <img className='AWS-badge' src={require("../png/flatironschoolbadge.png")} alt='Flatiron School Badge' />
+                        </a>
+                        <div id='AWS-badge-description'> Earners of the software engineering certificate have done much more than simply build technical skills: they have maintained technical blogs to show they can credibly talk tech; they have become a part of the tech community; they have amassed an impressive portfolio of unique, functional web applications to show employers as they enter the job-search phase with the support of our Career Services team. </div>
+                    </div>
+                </div>
+            )
+        }
+    }
     return (
         <div className='about'>
             <div className='subtitle'>
@@ -35,6 +56,7 @@ const About = () => {
                     <img className='portrait' src={require("../png/Johnson-01378.jpg")} alt='Portrait' />
                 </div>
             </div>
+            {renderCerts()}
             {renderSocialHandles()}
         </div>
     );
