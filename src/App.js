@@ -2,12 +2,6 @@ import React, {Suspense} from 'react';
 import {Switch, Route} from 'react-router-dom'
 import './App.css';
 
-// import HomePage from './components/HomePage'
-// import AboutPage from './components/AboutPage'
-// import BlogPage from './components/BlogPage'
-// import PortfolioPage from './components/PortfolioPage'
-// import Contact from './components/Contact'
-
 const HomePage = React.lazy(() => import("./components/HomePage"))
 const AboutPage = React.lazy(() => import("./components/AboutPage"))
 const BlogPage = React.lazy(() => import("./components/BlogPage"))

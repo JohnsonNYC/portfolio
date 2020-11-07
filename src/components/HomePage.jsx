@@ -1,7 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax'
 
-//Components 
 import Navbar from './Navbar'
 import HomeBanner from './HomeBanner'
 import About from './About'

@@ -7,11 +7,11 @@ class Navbar extends Component {
     render() {
         return (
             <header id='header'>
-                <div id='navbar'> {/* Header Container*/}
+                <div id='navbar'>
                     <div id='title-container'> 
                         Johnson Kow
                     </div>
-                    <nav id='nav-links'> {/* Links Container */}
+                    <nav id='nav-links'>
                         <div className='navButton'id='nb-1'><Link className='navLink' to='/'>Home</Link></div>
                         <div className='navButton'id='nb-2'> <Link className='navLink' to='/about'>About</Link></div>
                         <div className='navButton'id='nb-3'><Link className='navLink' to='/portfolio'>Portfolio</Link></div>

@@ -9,11 +9,9 @@
     align-self: center;
     padding-bottom: 1rem;
     padding-top:2rem;
-    /* background-color: cadetblue; */
 }
 
 hr{
-    /* background-color: black; */
     margin: 10px;
     width: 56rem;
     background-color: black;
@@ -27,13 +25,11 @@ hr{
     font-family:"Abel";
     margin-left: 215px;
     margin-right: 215px;
-    /* background-color: burlywood; */
 }
 
 .blog-thumbnails{
     display: flex;
     justify-content: center;
-    /* background-color: palegoldenrod; */
     margin-bottom: 1 rem;
 }
 
