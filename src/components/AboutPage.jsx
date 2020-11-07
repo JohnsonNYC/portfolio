@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { Parallax } from 'react-parallax'
 
 import About from './About'
@@ -6,7 +6,6 @@ import Navbar from './Navbar'
 
 import './AboutPage.css'
 import background from '../png/About Header.jpg'
-const LoadingVideo = () => <p>Loading Video</p>
 
 
 const AboutPage = () => {
@@ -15,7 +14,6 @@ const AboutPage = () => {
             return (
                 <div className='hobbies'>
                     <h2>Hobbies & Interest</h2>
-                    <Suspense fallback={<LoadingVideo/>}>
                         <iframe
                             title='drone hobby'
                             width="560"
@@ -26,8 +24,7 @@ const AboutPage = () => {
                             allowfullscreen>
                         </iframe>
 
-                    </Suspense>
-                    <Suspense fallback={<LoadingVideo/>}>
+                    
                         <iframe
                             title='New York City'
                             width="560"
@@ -37,8 +34,7 @@ const AboutPage = () => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
-                    </Suspense>
-                    
+
                     <iframe
                         title='Banff'
                         width="560"
