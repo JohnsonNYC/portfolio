@@ -19,31 +19,12 @@ const Blog = () => {
         // eslint-disable-next-line
     },[])
 
-    let onNext = () => {
-
-        if(displayIndex >= blogs.length){ 
-            setStack(blogs.slice(0,3))
-            setDisplayIndex(0)
-        }else{
-            setStack(blogs.slice(displayIndex, displayIndex + 3))
-            setDisplayIndex(displayIndex+3)
-        }
-    }
-
-
 
     return (
         <div className='blog'>
             <hr/>
             <div id='blog-header' className='subtitle'> Blogs </div>
 
-            <div className='blog-nav'>
-                <div className='featured'>Featured</div>
-                <div className='feature-nav'>
-                    <div className='page' onClick={()=> console.log('PREV')}> prev </div>
-                    <div className='page' onClick={onNext}> next </div>
-                </div>
-            </div>
 
                 <div className='blog-thumbnails'>
                     {stack.map((blog)=>{
