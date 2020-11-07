@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Parallax } from 'react-parallax'
 
 import About from './About'
@@ -6,6 +6,8 @@ import Navbar from './Navbar'
 
 import './AboutPage.css'
 import background from '../png/About Header.jpg'
+const LoadingVideo = () => <p>Loading Video</p>
+
 
 const AboutPage = () => {
     const hobbiesRender = () => {
@@ -13,26 +15,30 @@ const AboutPage = () => {
             return (
                 <div className='hobbies'>
                     <h2>Hobbies & Interest</h2>
-                    <iframe
-                        title='drone hobby'
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/fQSfbvDSCFA"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+                    <Suspense fallback={<LoadingVideo/>}>
+                        <iframe
+                            title='drone hobby'
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/fQSfbvDSCFA"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
 
-                    <iframe
-                        title='New York City'
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/wZMvEpqxrfM"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-
+                    </Suspense>
+                    <Suspense fallback={<LoadingVideo/>}>
+                        <iframe
+                            title='New York City'
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/wZMvEpqxrfM"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </Suspense>
+                    
                     <iframe
                         title='Banff'
                         width="560"
