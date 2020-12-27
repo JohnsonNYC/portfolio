@@ -33,7 +33,7 @@
 }
 
 .about-text-container{
-    background-color: orchid;
+    /* background-color: orchid; */
     max-width: 1008px;
     min-width: 535px;
 
@@ -45,7 +45,7 @@
     letter-spacing: 1px;
     word-wrap: normal;
     padding: 8px;
-    background-color: orangered;
+    /* background-color: orangered; */
 }
 
 a{

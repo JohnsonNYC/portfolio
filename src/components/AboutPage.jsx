@@ -14,34 +14,34 @@ const AboutPage = () => {
             return (
                 <div className='hobbies'>
                     <h2>Hobbies & Interest</h2>
-                        <iframe
-                            title='drone hobby'
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/fQSfbvDSCFA"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
+                    <iframe
+                        title='drone hobby'
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/fQSfbvDSCFA"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                    </iframe>
 
-                    
-                        <iframe
-                            title='New York City'
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/wZMvEpqxrfM"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
+
+                    <iframe
+                        title='New York City'
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/wZMvEpqxrfM"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                    </iframe>
 
                     <iframe
                         title='Banff'
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/nqRTqLxCjcE"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
                     </iframe>
 
                     <iframe
@@ -49,9 +49,9 @@ const AboutPage = () => {
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/fs_wr94vBEc"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
+                        allowFullScreen>
                     </iframe>
                 </div>
             )
@@ -59,7 +59,7 @@ const AboutPage = () => {
     }
     return (
         <div id='AboutPage'>
-            <Parallax bgImage={background} strength={300}>
+            <Parallax bgImage={background} strength={300} style={{width: '100%'}}>
                 <div id='about-banner'>
                     <Navbar />
                     <div className='about-description-wrapper'>
