@@ -6,13 +6,12 @@ import './Navbar.css'
 class Navbar extends Component {
 
     tabletResponsive = () => {
-        var x = document.getElementById("nav-links");
-        if (x.className === "topnav") {
-            x.className += " responsive";
+        const navLinks = document.getElementById("nav-links");
+        if (navLinks.className === "topnav") {
+            navLinks.className += " responsive";
         } else {
-            x.className = "topnav";
+            navLinks.className = "topnav";
         }
-        console.log(x)
     }
 
 
