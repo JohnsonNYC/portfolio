@@ -1,70 +1,40 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Navbar from './Navbar';
 import './Contact.css';
-import {Parallax} from 'react-parallax'
+import { Parallax } from 'react-parallax'
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import pdf from '../JohnsonResume.pdf'
 
 import background from '../png/Johnson Portrait 2.jpg'
 
 const Contact = () => {
-    const [firstName, setFirstName] = useState("")
-    const [lastName, setLastName] = useState("")
-    const [email, setEmail] = useState("")
-    const [subject, setSubject] = useState("")
-    const [message, setMessage] = useState("")
-    const [done] = useState(false)
+    // eslint-disable-next-line
+    const [numPages, setNumPages] = useState(null);
+    // eslint-disable-next-line
+    const [pageNumber, setPageNumber] = useState(1);
 
-    let handleFN = (event) => {
-        setFirstName(event.target.value)
-    }
-    let handleLN = (event) => {
-        setLastName(event.target.value)
-    }
-    let handleEmail = (event) => {
-        setEmail(event.target.value)
-    }
-    let handleMessage = (event) => {
-        setMessage(event.target.value)
-    }
-    let handleSubject = (event) => {
-        setSubject(event.target.value)
-    }
-
-    let handleSubmit = (event) => {
-        event.preventDefault();
-        alert('Message was sent')
+    function onDocumentLoadSuccess({ numPages }) {
+        setNumPages(numPages);
     }
 
     return (
-        <div className='Contact'>
+        <div className='contact'>
             <Parallax bgImage={background} strength={200}>
                 <div id='contact-banner'>
                     <Navbar />
                     <div className='contact-description-wrapper'>
-                        <p className='contact-banner-text'> Find out how to contact Johnson Kow</p>
+                        <p className='contact-banner-text'>Past Experiences</p>
                     </div>
                 </div>
             </Parallax>
-            {!done ?
-                <div className='maintanence-message'> This Page Is Currently Down for Maintanence</div>
-                :
-                <div className='main'>
-                    <div>Contact me using the form below. I look forward to hearing from you.</div>
-                    <form onSubmit={handleSubmit}>
-                        <label>
-                            <input id='firstName' placeholder='First Name*' type='text' value={firstName} onChange={handleFN} aria-required='true' />
-                            <input id='lastName' placeholder='Last Name*' type='text' value={lastName} onChange={handleLN} aria-required='true' />
-                        </label>
-                        <input id='Email' placeholder='Email*' type='text' value={email} onChange={handleEmail} aria-required='true' />
-                        <input id='Subject' placeholder='Subject*' type='text' value={subject} onChange={handleSubject} aria-required='true' />
-                        <label id='message-label'> Message*</label>
-                        <textarea id='Message' value={message} onChange={handleMessage} aria-required='true' />
-                        <input type='submit' value='submit' />
-                    </form>
-                    <div>
-                        ADD HANDLES TO THE BOTTOM OF THIS PAGE
-                    </div>
-                </div>
-            }
+            <Document
+                file={pdf}
+                onLoadSuccess={onDocumentLoadSuccess}
+                className='resume-container'
+            >
+                <h2 id='blog-header' className='subtitle'> Resume </h2>
+                <Page className='resume' pageNumber={pageNumber} height='800'/>
+            </Document>
         </div>
     );
 }

@@ -1,7 +1,12 @@
-.PlaceHolder{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+.contact{
+    height: 100%;
+}
+.subtitle{
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 #contact-banner{
@@ -9,45 +14,7 @@
     background-size: cover;
     background-position: 0% 70%;
     display:flex;
-    flex-direction: column;
-    
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-}
-
-input{
-    padding: 1rem;
-    margin: 10px;
-}
-
-textarea{
-    width: auto;
-    margin: 10px;
-    padding: 12px;
-    font-family: sans-serif;
-}
-
-.maintanence-message{
-    padding: 5rem;
-    display: flex;
-    justify-content: center;
-    font-family: 'Bebas Neue';
-    font-size: 5rem;
-}
-
-#message-label{
-    margin-left: 10px;
-    margin-top: 5px;
+    flex-direction: column;    
 }
 
 .contact-description-wrapper{
@@ -63,3 +30,13 @@ textarea{
     font-size: 20px;
     letter-spacing: 2px;
 }
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+    height: 100%;
+}
+
