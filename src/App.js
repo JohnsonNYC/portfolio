@@ -6,7 +6,7 @@ const HomePage = React.lazy(() => import("./components/HomePage"))
 const AboutPage = React.lazy(() => import("./components/AboutPage"))
 const BlogPage = React.lazy(() => import("./components/BlogPage"))
 const PortfolioPage = React.lazy(() => import("./components/PortfolioPage"))
-const Contact = React.lazy(() => import("./components/Contact"))
+const Resume = React.lazy(() => import("./components/Resume"))
 const LoadingPage = () => <div>Loading Page</div>
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Route path="/about" render={()=> <AboutPage/>}/>
           <Route path="/portfolio" render={()=> <PortfolioPage/>}/>
           <Route path="/blog" render={()=> <BlogPage />} />
-          <Route path="/contact" render={()=> <Contact />} />
+          <Route path="/resume" render={()=> <Resume />} />
           <Route exact path="/" component={HomePage}/>
         </Switch>
       </Suspense>

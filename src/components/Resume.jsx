@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import Navbar from './Navbar';
-import './Contact.css';
+import './Resume.css';
 import { Parallax } from 'react-parallax'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import pdf from '../JohnsonResume.pdf'
 
 import background from '../png/Johnson Portrait 2.jpg'
 
-const Contact = () => {
+const Resume = () => {
     // eslint-disable-next-line
     const [numPages, setNumPages] = useState(null);
     // eslint-disable-next-line
@@ -39,4 +39,4 @@ const Contact = () => {
     );
 }
 
-export default Contact;
+export default Resume;
