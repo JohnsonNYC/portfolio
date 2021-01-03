@@ -27,7 +27,7 @@ class Navbar extends Component {
                         <div className='navButton' id='nb-2'><Link className='navLink' to='/about'>About</Link></div>
                         <div className='navButton' id='nb-3'><Link className='navLink' to='/portfolio'>Portfolio</Link></div>
                         <div className='navButton' id='nb-4'><Link className='navLink' to='/blog'>Blog</Link></div>
-                        <div className='navButton' id='nb-5'><Link className='navLink' to='/resume'> Resume </Link></div>
+                        {/* <div className='navButton' id='nb-5'><Link className='navLink' to='/resume'> Resume </Link></div> */}
 
                         <div href={void(0)} className="icon" onClick={this.tabletResponsive}>
                             <i className="fa fa-bars"></i>
