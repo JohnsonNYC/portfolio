@@ -29,7 +29,7 @@
     margin-left:16rem;
     margin-right: 16rem;
     
-    background-color: red;
+    /* background-color: red; */
 }
 
 .about-text-container{
@@ -91,7 +91,7 @@ p{
 /* TABLET  */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     .about-text-picture {
-      background-color: #F5CF8E; /* Yellow */
-      flex-wrap: wrap-reverse;
+        /* background-color: #F5CF8E; */
+        flex-wrap: wrap-reverse;
     }
-  }
+}
