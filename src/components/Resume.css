@@ -1,0 +1,42 @@
+.contact{
+    height: 100%;
+}
+.subtitle{
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#contact-banner{
+    height:664px;
+    background-size: cover;
+    background-position: 0% 70%;
+    display:flex;
+    flex-direction: column;    
+}
+
+.contact-description-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit; 
+}
+
+.contact-banner-text{
+    color:white;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(133, 133, 133);
+    height: 100%;
+}
+

@@ -4,12 +4,6 @@
     align-items: center;
 }
 
-.vl{
-    height: 450px;
-    padding-right: 2px;
-    background-color:rgb(194, 190, 190);
-}
-
 .subtitle{
     font-family: "Bebas Neue";
     font-size: 30px;
@@ -34,8 +28,16 @@
     align-items: center;
     margin-left:16rem;
     margin-right: 16rem;
+    
+    /* background-color: red; */
 }
 
+.about-text-container{
+    /* background-color: orchid; */
+    max-width: 1008px;
+    min-width: 535px;
+
+}
 .about-text{
     font-family:"Archivo Narrow";
     margin-left:10px;
@@ -43,6 +45,7 @@
     letter-spacing: 1px;
     word-wrap: normal;
     padding: 8px;
+    /* background-color: orangered; */
 }
 
 a{
@@ -83,4 +86,12 @@ p{
     font-family: 'Archivo Narrow';
     font-size: 20px;
     margin-left: 2px;
+}
+
+/* TABLET  */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .about-text-picture {
+        /* background-color: #F5CF8E; */
+        flex-wrap: wrap-reverse;
+    }
 }
