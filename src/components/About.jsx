@@ -11,7 +11,7 @@ const About = () => {
                     <p> LinkedIn: <a className='handles' href="https://www.linkedin.com/in/johnson-kow/" target='_blank' rel='noopener noreferrer'>@johnson-kow</a> </p>
                     <p> GitHub: <a className='handles' href="https://github.com/JohnsonNYC" target='_blank' rel='noopener noreferrer'>@JohnsonNYC</a></p>
                     <p> Twitter: <a className='handles' href="https://twitter.com/TheJohnsonKow" target='_blank' rel='noopener noreferrer'>@TheJohnsonKow</a></p>
-                    <p> Medium: <a className='handles' href="https://medium.com/@jkow95_34338" target='_blank' rel='noopener noreferrer'>@jkow</a></p>
+                    <p> Medium: <a className='handles' href="https://johnsonkow.medium.com/" target='_blank' rel='noopener noreferrer'>@jkow</a></p>
                 </div>
             )
         }
