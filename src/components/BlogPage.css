@@ -32,6 +32,7 @@ img{
     display: flex;
     max-width: 70%;
     height:auto;
+    padding: 5px;
 }
 
 .blog-information{

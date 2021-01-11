@@ -18,12 +18,13 @@ const BlogPage = () => {
             </Parallax>
             <div className='blog-container'>
                 <div className='subtitle'>
-                    Blog
-            </div>
-                {data.map((blog) =>
+                    Blogs
+                </div>
+
+                {data.reverse().map((blog) =>
                     <div className='blog-item'>
-                        <div className="blog-img">
-                            <img src={blog.imgSrc} alt={blog.title} />
+                        <div className="blog-thumbnail">
+                            <img className='blog-img' src={blog.imgSrc} alt={blog.title} />
                         </div>
                         <div className='blog-information'>
                             <div className='date'>{blog.date}</div>
