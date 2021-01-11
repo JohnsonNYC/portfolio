@@ -1,150 +1,14 @@
 [
     {
         "id": 1,
-        "title": "API Interactions with Node",
-        "url": "https://johnsonkow.medium.com/api-interactions-with-node-e38d04eb4dde",
-        "imgSrc": "https://miro.medium.com/max/700/1*mUDpSVh8yZYuGk1_09-4YQ.jpeg",
-        "date": "November 16, 2020",
-        "description": " Currently I'm working on a weather app that requires two API's. One of them is responsible for translating a location text into coordinates. The second API uses those coordinates to provide information on the weather from the searched location. As I'm mostly familiar with React I knew the overall idea of what I wanted to do and I go over exaclty what that is. Enjoy!"
+        "title": "Flying with Artificial Intelligence",
+        "url": "https://medium.com/@jkow95_34338/flying-with-artificial-intelligence-9c21b32d5d7e",
+        "imgSrc": "https://miro.medium.com/max/512/0*EQ9ZOnFwJ7SCjoH8.jpg",
+        "date": "March 6, 2020",
+        "description": " As an owner of a drone with some AI, I've always been intrigued by the technology and code that goes behind this science, paritcularly the active tracking mode. Check out this blog that explains how it works and where it can lead!"
     },
     {
         "id": 2,
-        "title": "Node.js (To Do List App)",
-        "url": "https://johnsonkow.medium.com/node-js-to-do-list-app-87372e5f12a4",
-        "imgSrc": "https://miro.medium.com/max/700/1*TGwJKcxY8kGEenRLLedeLw.png",
-        "date": "November 10, 2020",
-        "description": " As an introduction to learning Node, I'm learning how to create a CLI application that records input text and appends it to another file. In this blog you'll get familiar with the file systems module, yargs, npm packages, and much more. You'll also learn how to read and write to a file. Lastly, I challenge you to create a function that updates or deletes elements from a file! "
-    },
-    {
-        "id": 3,
-        "title": "AWS Cloud Practitioner Certified",
-        "url": "https://johnsonkow.medium.com/aws-cloud-practitioner-certified-7e7f3cb3a91b",
-        "imgSrc": "https://miro.medium.com/max/700/1*XRz8ww3gD5psXrZu-jbvSA.jpeg",
-        "date": "November 3, 2020",
-        "description": "I'm a certified AWS Cloud Practitioner! This was something I've been wanting to do since March of this year. I'll give you tips on what I did to pass the exam while provididng you some of the resources I used that provided me with all the knowledge I needed to pass the exam."
-    },
-    {
-        "id": 4,
-        "title": "AWS: Security in the Cloud",
-        "url": "https://johnsonkow.medium.com/aws-security-in-the-cloud-bfacbad38acd",
-        "imgSrc": "https://miro.medium.com/max/700/1*nNoMZOTdKnlq4o1mO2KQCg.jpeg",
-        "date": "October 26, 2020",
-        "description": "Learn about how to apply security resources on your app to prevent from hackers hacking or DDOS attacks. In this blog, you'll learn about security in the cloud and the shared responsibilites of AWS and the customer. "
-    },
-    {
-        "id": 5,
-        "title": "AWS: Billing and Pricing",
-        "url": "https://johnsonkow.medium.com/aws-billing-and-pricing-6635537b25f6",
-        "imgSrc": "https://miro.medium.com/max/700/1*C_UKLBD2qdR0mxZGIpi7VA.jpeg",
-        "date": "October 19, 2020",
-        "description": "It seems like there are so many things to look out for when using AWS when it comes to pricing and costs. To help keep track of everything, AWS has a couple of resources to help track multiple resources into a single bill with a breakdown of what each resrource costs. "
-    },
-    {
-        "id": 6,
-        "title": "AWS: Architecting for the Cloud",
-        "url": "https://johnsonkow.medium.com/aws-architecting-for-the-cloud-323f7cbe54fd",
-        "imgSrc": "https://miro.medium.com/max/700/1*S31mr5mFIT4dSOrXaCU2Kw.jpeg",
-        "date": "October 12, 2020",
-        "description": "After finishing my curriculm for the day, the instructor suggested that we take a look at the whitepapers that Amazon has published. This blog is meant to be a refined version of the whitepaper."
-    },
-    {
-        "id": 7,
-        "title": "Dyanmic Programming: Intro",
-        "url": "https://johnsonkow.medium.com/dynamic-programming-intro-3f7c3825a342",
-        "imgSrc": "https://miro.medium.com/max/700/1*_DtxVcpSGU8vt43FaHx9hg.jpeg",
-        "date": "October 8, 2020",
-        "description": " This blog aims at dynamic programming. This was a topic that I wanted to blog about for sometime on a problem that most developers see during their interview process. The fibonacci sequence is one of the first algos developers learn to solve recursively but sometimes recursive functions are slow. "
-    },
-    {
-        "id": 8,
-        "title": "The First Interview",
-        "url": "https://medium.com/@jkow95_34338/the-first-interview-9eeedb07f1e9",
-        "imgSrc": "https://miro.medium.com/max/512/1*VrC0URjq50-WgoNCcH1DxA.jpeg",
-        "date": "October 1, 2020",
-        "description": "A short story detailing my first experience interviewing for a Fullstack Developer Position out in Texas. During my interview, I was nervous, anxious, and honestly scared but my interviewers calmed me. I was tested on my understanding of the internet, backend engineering with Python, and frontend engineering with React."
-    },
-    {
-        "id": 9,
-        "title": "Big Brain Time: FizzBuzz",
-        "url": "https://medium.com/@jkow95_34338/big-brain-time-fizzbuzz-8e9f372d9d64",
-        "imgSrc": "https://miro.medium.com/max/512/1*wYqBEry-Px9oZI1PnoB_dw.jpeg",
-        "date": "September 25, 2020",
-        "description": " Most people know how to solve this problem as it's one of the first algo problems you'll get as a junior developer. I noticed that most poeple solve it the same way which is by creating multiple conditionals but I found that this way is much better."
-    },
-    {
-        "id": 10,
-        "title": "AWS : The different types of Databases",
-        "url": "https://medium.com/@jkow95_34338/aws-the-different-types-of-databases-51684b759c12",
-        "imgSrc": "https://miro.medium.com/max/512/1*I45VoCNt8ZgoGJVfyxKuYg.jpeg",
-        "date": "September 23, 2020",
-        "description": "Moving along with my AWS course, I go into the different types of databases offered by AWS and the difference between relational and non relational databases. You'll understand the differences between the two and learn about OLAP and OLTP!"
-    },
-    {
-        "id": 11,
-        "title": "AWS: Storage and Servers",
-        "url": "https://medium.com/@jkow95_34338/aws-storage-and-servers-2ef48d7676f1",
-        "imgSrc": "https://miro.medium.com/max/512/1*Ri0dMoX3bqjbjMiy1fDvGA.jpeg",
-        "date": "September 16, 2020",
-        "description": "A short desription of the difference storage and server services offered by AWS such as EC2 instances and S3 buckets. You'll learn about EC2 being your virtual maching and an S3 bucket just a place to store files like .txt or jpegs. Just to be clear, these two things are not the same thing and offer very different services."
-    },
-    {
-        "id": 12,
-        "title": "AWS Introduction",
-        "url": "https://medium.com/@jkow95_34338/aws-introduction-eccd3a4719e6",
-        "imgSrc": "https://miro.medium.com/max/512/1*AhqmmyG7A49bJ21bt4axiA.jpeg",
-        "date": "September 12, 2020",
-        "description": "An introduction to cloud computing; what it is, what it does, and why companies are moving in this direction of cloud computing. I dive into the reason cloud computing is better and how cost effiecient and cost effective it is. You'll learn about the fundamentals of the cloud such as different deployment methods, the kind of cloud services provided, and the advantages of the cloud."
-    },
-    {
-        "id": 13,
-        "title": "Valid Sudoku Challenge",
-        "url": "https://medium.com/@jkow95_34338/valid-sudoku-challenge-c5a1fc4080c6",
-        "imgSrc": "https://miro.medium.com/max/512/1*oMTzhzaE96kwj4b4hQkkgg.jpeg",
-        "date": "September 2, 2020",
-        "description": "I recently had a code challenge for a job opportunity that wanted me to validate if a sudoku board was valid or not. In this blog, I go over how I solved it but I'd like to hear how other people have solved this! I'm also interested in learning of ways to work with matrices without using nested loops for a better Big O(n)."
-    },
-    {
-        "id": 14,
-        "title": "React Native Week 2: Navigation",
-        "url": "https://medium.com/@jkow95_34338/react-native-week-2-navigation-62bc876c2bff",
-        "imgSrc": "https://miro.medium.com/max/512/1*dG2Bp7yPRlfThh24zrff_A.jpeg",
-        "date": "August 26, 2020",
-        "description": "While I was learning React Native, I wondered how navigation would work. I recently got to the point in my development where I need to navigate. Follow me through my journey as I implement and learn about React Native Routing/ Navigation."
-    },
-    {
-        "id": 15,
-        "title": "Learning React Native: Week 1",
-        "url": "https://medium.com/@jkow95_34338/learning-react-native-week-1-bbc64325a2da",
-        "imgSrc": "https://miro.medium.com/max/512/1*Bkslrnbv_ustbylfcZ9Mpg.png",
-        "date": "August 19th, 2020",
-        "description": "With my understanding of React, I figured I would tackle React native since I assumed the only change was the display size of my app. I was wrong. Learn about the different elements used for React Native and how to start coding you first mobile application. "
-    },
-    {
-        "id": 16,
-        "title": "Ruby on Rails: SQlite3 to PostgreSQL",
-        "url": "https://medium.com/@jkow95_34338/ruby-on-rails-sqlite3-to-postgresql-8eb9ebb21db7",
-        "imgSrc": "https://miro.medium.com/max/512/1*BD7NJHGp_TFT4QaCYGXRAw.jpeg",
-        "date": "August 12, 2020",
-        "description": " I'm always using Ruby on Rails for my API developement but sometimes I forget to change my database from SQLite3 to PostgreSQL. If you're like me, this blog aims to show you how to change you database type when you're deep into your development. You do not need to start over, thankfully!"
-    },
-    {
-        "id": 17,
-        "title": "Svelte vs React",
-        "url": "https://medium.com/@jkow95_34338/svelte-vs-react-e63dd7d16155",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
-        "date": "May 27, 2020",
-        "description": "I'm currently learning React.js and I can't say that I'm a huge fan of it. My friend told me about Svelte and after reading the documents, I found that this may be something that I might like for frontend development. Check out the differences between React and Svelte and why I think Svelte may be top framework for frontend development."
-    },
-    {
-        "id": 18,
-        "title": "Noise Cancellation",
-        "url": "https://medium.com/@jkow95_34338/noise-cancellation-afd2f48e2fb1",
-        "imgSrc": "https://miro.medium.com/max/261/0*Q8-VhArkcAzQqurc.png",
-        "date": "May 6, 2020",
-        "description": "Join me in my understanding of noise cancellation technology and the phyiscs behind sound waves to understand how our favorite headphones gives us quiet bliss."
-    },
-    {
-        "id": 19,
         "title": "Bluetooth",
         "url": "https://medium.com/@jkow95_34338/bluetooth-57c230c7c595",
         "imgSrc": "https://miro.medium.com/max/370/0*pymetebaY93K18ZL.png",
@@ -152,11 +16,203 @@
         "description": "An introduction to bluetooth technology that answers how devices connect to one another or how multiple devices to connect to one master device. Bluetooth is a technology that has always interested me because I remember it being available to us when flip phones were a thing and nobody new exactly what it was. Nowadays it seems like everyone is familiar with the tech and have an ecosystem of hardware connected to each other."
     },
     {
+        "id": 3,
+        "title": "Noise Cancellation",
+        "url": "https://medium.com/@jkow95_34338/noise-cancellation-afd2f48e2fb1",
+        "imgSrc": "https://miro.medium.com/max/261/0*Q8-VhArkcAzQqurc.png",
+        "date": "May 6, 2020",
+        "description": "Join me in my understanding of noise cancellation technology and the phyiscs behind sound waves to understand how our favorite headphones gives us quiet bliss."
+    },
+    {
+        "id": 4,
+        "title": "Svelte vs React",
+        "url": "https://medium.com/@jkow95_34338/svelte-vs-react-e63dd7d16155",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
+        "date": "May 27, 2020",
+        "description": "I'm currently learning React.js and I can't say that I'm a huge fan of it. My friend told me about Svelte and after reading the documents, I found that this may be something that I might like for frontend development. Check out the differences between React and Svelte and why I think Svelte may be top framework for frontend development."
+    },
+    {
+        "id": 5,
+        "title": "Ruby on Rails: SQlite3 to PostgreSQL",
+        "url": "https://medium.com/@jkow95_34338/ruby-on-rails-sqlite3-to-postgresql-8eb9ebb21db7",
+        "imgSrc": "https://miro.medium.com/max/512/1*BD7NJHGp_TFT4QaCYGXRAw.jpeg",
+        "date": "August 12, 2020",
+        "description": " I'm always using Ruby on Rails for my API developement but sometimes I forget to change my database from SQLite3 to PostgreSQL. If you're like me, this blog aims to show you how to change you database type when you're deep into your development. You do not need to start over, thankfully!"
+    },
+    {
+        "id": 6,
+        "title": "Learning React Native: Week 1",
+        "url": "https://medium.com/@jkow95_34338/learning-react-native-week-1-bbc64325a2da",
+        "imgSrc": "https://miro.medium.com/max/512/1*Bkslrnbv_ustbylfcZ9Mpg.png",
+        "date": "August 19th, 2020",
+        "description": "With my understanding of React, I figured I would tackle React native since I assumed the only change was the display size of my app. I was wrong. Learn about the different elements used for React Native and how to start coding you first mobile application. "
+    },
+    {
+        "id": 7,
+        "title": "React Native Week 2: Navigation",
+        "url": "https://medium.com/@jkow95_34338/react-native-week-2-navigation-62bc876c2bff",
+        "imgSrc": "https://miro.medium.com/max/512/1*dG2Bp7yPRlfThh24zrff_A.jpeg",
+        "date": "August 26, 2020",
+        "description": "While I was learning React Native, I wondered how navigation would work. I recently got to the point in my development where I need to navigate. Follow me through my journey as I implement and learn about React Native Routing/ Navigation."
+    },
+    {
+        "id": 8,
+        "title": "Valid Sudoku Challenge",
+        "url": "https://medium.com/@jkow95_34338/valid-sudoku-challenge-c5a1fc4080c6",
+        "imgSrc": "https://miro.medium.com/max/512/1*oMTzhzaE96kwj4b4hQkkgg.jpeg",
+        "date": "September 2, 2020",
+        "description": "I recently had a code challenge for a job opportunity that wanted me to validate if a sudoku board was valid or not. In this blog, I go over how I solved it but I'd like to hear how other people have solved this! I'm also interested in learning of ways to work with matrices without using nested loops for a better Big O(n)."
+    },
+    {
+        "id": 9,
+        "title": "AWS Introduction",
+        "url": "https://medium.com/@jkow95_34338/aws-introduction-eccd3a4719e6",
+        "imgSrc": "https://miro.medium.com/max/512/1*AhqmmyG7A49bJ21bt4axiA.jpeg",
+        "date": "September 12, 2020",
+        "description": "An introduction to cloud computing; what it is, what it does, and why companies are moving in this direction of cloud computing. I dive into the reason cloud computing is better and how cost effiecient and cost effective it is. You'll learn about the fundamentals of the cloud such as different deployment methods, the kind of cloud services provided, and the advantages of the cloud."
+    },
+    {
+        "id": 10,
+        "title": "AWS: Storage and Servers",
+        "url": "https://medium.com/@jkow95_34338/aws-storage-and-servers-2ef48d7676f1",
+        "imgSrc": "https://miro.medium.com/max/512/1*Ri0dMoX3bqjbjMiy1fDvGA.jpeg",
+        "date": "September 16, 2020",
+        "description": "A short desription of the difference storage and server services offered by AWS such as EC2 instances and S3 buckets. You'll learn about EC2 being your virtual maching and an S3 bucket just a place to store files like .txt or jpegs. Just to be clear, these two things are not the same thing and offer very different services."
+    },
+    {
+        "id": 11,
+        "title": "AWS : The different types of Databases",
+        "url": "https://medium.com/@jkow95_34338/aws-the-different-types-of-databases-51684b759c12",
+        "imgSrc": "https://miro.medium.com/max/512/1*I45VoCNt8ZgoGJVfyxKuYg.jpeg",
+        "date": "September 23, 2020",
+        "description": "Moving along with my AWS course, I go into the different types of databases offered by AWS and the difference between relational and non relational databases. You'll understand the differences between the two and learn about OLAP and OLTP!"
+    },
+    {
+        "id": 12,
+        "title": "Big Brain Time: FizzBuzz",
+        "url": "https://medium.com/@jkow95_34338/big-brain-time-fizzbuzz-8e9f372d9d64",
+        "imgSrc": "https://miro.medium.com/max/512/1*wYqBEry-Px9oZI1PnoB_dw.jpeg",
+        "date": "September 25, 2020",
+        "description": " Most people know how to solve this problem as it's one of the first algo problems you'll get as a junior developer. I noticed that most poeple solve it the same way which is by creating multiple conditionals but I found that this way is much better."
+    },
+    {
+        "id": 13,
+        "title": "The First Interview",
+        "url": "https://medium.com/@jkow95_34338/the-first-interview-9eeedb07f1e9",
+        "imgSrc": "https://miro.medium.com/max/512/1*VrC0URjq50-WgoNCcH1DxA.jpeg",
+        "date": "October 1, 2020",
+        "description": "A short story detailing my first experience interviewing for a Fullstack Developer Position out in Texas. During my interview, I was nervous, anxious, and honestly scared but my interviewers calmed me. I was tested on my understanding of the internet, backend engineering with Python, and frontend engineering with React."
+    },
+    {
+        "id": 14,
+        "title": "Dyanmic Programming: Intro",
+        "url": "https://johnsonkow.medium.com/dynamic-programming-intro-3f7c3825a342",
+        "imgSrc": "https://miro.medium.com/max/700/1*_DtxVcpSGU8vt43FaHx9hg.jpeg",
+        "date": "October 8, 2020",
+        "description": " This blog aims at dynamic programming. This was a topic that I wanted to blog about for sometime on a problem that most developers see during their interview process. The fibonacci sequence is one of the first algos developers learn to solve recursively but sometimes recursive functions are slow. "
+    },
+    {
+        "id": 15,
+        "title": "AWS: Architecting for the Cloud",
+        "url": "https://johnsonkow.medium.com/aws-architecting-for-the-cloud-323f7cbe54fd",
+        "imgSrc": "https://miro.medium.com/max/700/1*S31mr5mFIT4dSOrXaCU2Kw.jpeg",
+        "date": "October 12, 2020",
+        "description": "After finishing my curriculm for the day, the instructor suggested that we take a look at the whitepapers that Amazon has published. This blog is meant to be a refined version of the whitepaper."
+    },
+    {
+        "id": 16,
+        "title": "AWS: Billing and Pricing",
+        "url": "https://johnsonkow.medium.com/aws-billing-and-pricing-6635537b25f6",
+        "imgSrc": "https://miro.medium.com/max/700/1*C_UKLBD2qdR0mxZGIpi7VA.jpeg",
+        "date": "October 19, 2020",
+        "description": "It seems like there are so many things to look out for when using AWS when it comes to pricing and costs. To help keep track of everything, AWS has a couple of resources to help track multiple resources into a single bill with a breakdown of what each resrource costs. "
+    },
+    {
+        "id": 17,
+        "title": "AWS: Security in the Cloud",
+        "url": "https://johnsonkow.medium.com/aws-security-in-the-cloud-bfacbad38acd",
+        "imgSrc": "https://miro.medium.com/max/700/1*nNoMZOTdKnlq4o1mO2KQCg.jpeg",
+        "date": "October 26, 2020",
+        "description": "Learn about how to apply security resources on your app to prevent from hackers hacking or DDOS attacks. In this blog, you'll learn about security in the cloud and the shared responsibilites of AWS and the customer. "
+    },
+    {
+        "id": 18,
+        "title": "AWS Cloud Practitioner Certified",
+        "url": "https://johnsonkow.medium.com/aws-cloud-practitioner-certified-7e7f3cb3a91b",
+        "imgSrc": "https://miro.medium.com/max/700/1*XRz8ww3gD5psXrZu-jbvSA.jpeg",
+        "date": "November 3, 2020",
+        "description": "I'm a certified AWS Cloud Practitioner! This was something I've been wanting to do since March of this year. I'll give you tips on what I did to pass the exam while provididng you some of the resources I used that provided me with all the knowledge I needed to pass the exam."
+    },
+    {
+        "id": 19,
+        "title": "Node.js (To Do List App)",
+        "url": "https://johnsonkow.medium.com/node-js-to-do-list-app-87372e5f12a4",
+        "imgSrc": "https://miro.medium.com/max/700/1*TGwJKcxY8kGEenRLLedeLw.png",
+        "date": "November 10, 2020",
+        "description": " As an introduction to learning Node, I'm learning how to create a CLI application that records input text and appends it to another file. In this blog you'll get familiar with the file systems module, yargs, npm packages, and much more. You'll also learn how to read and write to a file. Lastly, I challenge you to create a function that updates or deletes elements from a file! "
+    },
+    {
         "id": 20,
-        "title": "Flying with Artificial Intelligence",
-        "url": "https://medium.com/@jkow95_34338/flying-with-artificial-intelligence-9c21b32d5d7e",
-        "imgSrc": "https://miro.medium.com/max/512/0*EQ9ZOnFwJ7SCjoH8.jpg",
-        "date": "March 6, 2020",
-        "description": " As an owner of a drone with some AI, I've always been intrigued by the technology and code that goes behind this science, paritcularly the active tracking mode. Check out this blog that explains how it works and where it can lead!"
+        "title": "API Interactions with Node",
+        "url": "https://johnsonkow.medium.com/api-interactions-with-node-e38d04eb4dde",
+        "imgSrc": "https://miro.medium.com/max/700/1*mUDpSVh8yZYuGk1_09-4YQ.jpeg",
+        "date": "November 16, 2020",
+        "description": " Currently I'm working on a weather app that requires two API's. One of them is responsible for translating a location text into coordinates. The second API uses those coordinates to provide information on the weather from the searched location. As I'm mostly familiar with React I knew the overall idea of what I wanted to do and I go over exaclty what that is. Enjoy!"
+    },
+    {
+        "id": 21,
+        "title": "What the CRUD (with MongoDB)",
+        "url": "https://johnsonkow.medium.com/what-the-crud-with-mongo-1765bc0113df",
+        "imgSrc": "https://miro.medium.com/max/700/1*BdQPK0HsTDuh4P3N3d7RGA.jpeg",
+        "date": "November 25, 2020",
+        "description": "A walk through of performing create, read, update and delete processes using Mongoose and MongoDB while using roboT3 as a GUI."
+    },
+    {
+        "id": 22,
+        "title": "Getting started with Mongoose",
+        "url": "https://johnsonkow.medium.com/getting-started-with-mongoose-b100edea6582",
+        "imgSrc": "https://miro.medium.com/max/700/1*VHDpJMP-c7D223MlSy-TBg.jpeg",
+        "date": "Decemeber 1, 2020",
+        "description": "Learn to use Mongoose, an ODM to communicate with your non-relational database. This walkthrough goes through starting up your server and creating models. In order to verify that your instances have been persisted to the backend, you can error handle and use RoboT3 if you're more of a visual person."
+    },
+    {
+        "id": 23,
+        "title": "Authenticating Users on NodeJS",
+        "url": "https://medium.com/swlh/authenticating-users-node-js-59d6a08fd6a2",
+        "imgSrc": "https://miro.medium.com/max/512/0*Ci6wpCh76T0qSAyh.jpg",
+        "date": "Decemeber 8, 2020",
+        "description": "During my time at my bootcamp, I skipped out on authenticating my users by I did encypt my password with Bcrypt. This walkthrough will introduce you to bcrytp and JSON Web Tokens (JWT) to keep users loggin into your app through multiple devices."
+    },
+    {
+        "id": 24,
+        "title": "The Burnout",
+        "url": "https://johnsonkow.medium.com/the-burnout-312678e7dff9",
+        "imgSrc": "https://miro.medium.com/max/700/1*kI59a-25a01x1SHSLFFU1g.jpeg",
+        "date": "Decemeber 16, 2020",
+        "description": "I've recently been feeling a bit burned out from learning new material everyday, working on projects, sending out multiple job applications and curating cover letters to different companies. If you're going through something similar, just know I relate. I get it. It's tough but keep in mind that everything will be worth it soon"
+    },
+    {
+        "id": 25,
+        "title": "MongoDB: Collection Relationships",
+        "url": "https://johnsonkow.medium.com/mongodb-collection-relationships-e19845ee3a78",
+        "imgSrc": "https://miro.medium.com/max/700/1*TMO7JHKQ9u3TU28_XSLgYA.jpeg",
+        "date": "Decemeber 21, 2020",
+        "description": "I've been so accustomed to using relational databases to the point where I started to wonder if you can create relationships between different collections inside of non-relational databases. The answer is yes! Learn to embed an instance of one model to the instance of another to express their relationships toward one another."
+    },
+    {
+        "id": 26,
+        "title": "Changing Pace: Frontend Development",
+        "url": "https://johnsonkow.medium.com/switching-pace-frontend-development-49ae2652a1cb",
+        "imgSrc": "https://miro.medium.com/max/700/1*3utQqqZV4i4XOsv3pM2mNA.jpeg",
+        "date": "Decemeber 29, 2020",
+        "description": "I've recently been thinking that in the pursuit of the 'fullstack' title, I may one to hone my skills individually for frontend and backend. I'll be priotizing frontend skills while pursuing frontend positions before doing any backend engineering. As a visual person, I find that the instant gratification of seeing things work visually is much more appealing that seeing a nasty backend error."
+    },
+    {
+        "id": 27,
+        "title": "Pinning Node Versions",
+        "url": "https://johnsonkow.medium.com/pinning-node-versions-5fcae2227159",
+        "imgSrc": "https://miro.medium.com/max/700/1*ToLaICmukAmTBL_Nm2B9LA.jpeg",
+        "date": "January 5, 2020",
+        "description": "As I learn more about development in my internship, I came across a really weird error that was caused by the SASS file. Admittedly, I have no experience with SASS files so I was a bit at a loss but it actually came from the Node-Sass library. A Libary that binds your version of node with SASS. For other devs it worked but it didn't for me because I was using an updated version of node. Pinning it made it so that other devs use the same version of node regardless of the one they have in their machine which prevents silly errors like this one."
     }
 ]

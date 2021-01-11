@@ -13,7 +13,7 @@ const Blog = () => {
     const [stack,setStack] = useState([])
 
     useEffect( ()=> {
-        let newStack = blogs.slice(displayIndex,displayIndex+3)
+        let newStack = blogs.reverse().slice(displayIndex,displayIndex+3)
         setStack(newStack)
         setDisplayIndex(displayIndex + 3)
         // eslint-disable-next-line
