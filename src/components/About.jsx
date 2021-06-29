@@ -16,27 +16,27 @@ const About = () => {
                 <div>
                     <ul >
                         <li>
-                            <a href="https://twitter.com/TheJohnsonKow">
+                            <a href="https://twitter.com/TheJohnsonKow" target='_blank' rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faTwitter} className='social-icon' size="3x" color='#1DA1F2'/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/johnson-kow/" >
+                            <a href="https://www.linkedin.com/in/johnson-kow/" target='_blank' rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} className='social-icon' size="3x" color='#0072b1'/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://johnsonkow.medium.com/">
+                            <a href="https://johnsonkow.medium.com/" target='_blank' rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faMedium} className='social-icon' size="3x" color='black'/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/JohnsonNYC" >
+                            <a href="https://github.com/JohnsonNYC" target='_blank' rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} className='social-icon' size="3x" color='#0cacf4'/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/johnson.nyc/">
+                            <a href="https://www.instagram.com/johnson.nyc/" target='_blank' rel="noopener noreferrer" >
                                 <FontAwesomeIcon icon={faInstagram} className='social-icon'size="3x" color='#bc2a8d'/>
                             </a>
                         </li>
