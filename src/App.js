@@ -1,6 +1,6 @@
 import React, {Suspense} from 'react';
 import {Switch, Route} from 'react-router-dom'
-import './App.css';
+// import './App.css';
 
 const HomePage = React.lazy(() => import("./components/HomePage"))
 const AboutPage = React.lazy(() => import("./components/AboutPage"))

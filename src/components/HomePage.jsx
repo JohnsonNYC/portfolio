@@ -20,9 +20,8 @@ const HomePage = () => {
                     </div>
                 </div>
             </Parallax>
-            <About />
+            <About/>
             <Blog />
-            <VideoContainer />
         </div>
     );
 }

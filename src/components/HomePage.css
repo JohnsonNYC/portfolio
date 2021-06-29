@@ -6,7 +6,7 @@
 
 
 .banner{
-    height: 600px;
+    height: 100vh;
     width: auto;
     display:flex ; 
     justify-content: center;

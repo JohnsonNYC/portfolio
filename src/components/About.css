@@ -45,25 +45,22 @@
     letter-spacing: 1px;
     word-wrap: normal;
     padding: 8px;
-    /* background-color: orangered; */
 }
 
-a{
+.social-icon{
     text-decoration: none;
-}
-.handles:visited {
-    color: #666
-}
-p{
-    padding:20px
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
 }
 
-.social-media-handles{
-    align-self: inherit;
-    display: flex;
-    font-family: "Abel";
-    font-weight: 900;
-    letter-spacing: 2px;
+.social-icon:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+li{
+    display: inline-block;
+    margin-right: 40px;
 }
 
 .certs{
@@ -76,17 +73,13 @@ p{
     margin-bottom: 10px;
 }
 
-#AWS-badge-description{
+.cert-description{
     font-family: 'Archivo Narrow';
     font-size: 20px;
     margin-left: 2px;
+    max-width: 2000px;
 }
 
-#FI-badge-description{
-    font-family: 'Archivo Narrow';
-    font-size: 20px;
-    margin-left: 2px;
-}
 
 /* TABLET  */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
