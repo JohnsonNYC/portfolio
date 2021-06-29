@@ -24,10 +24,12 @@
 
 iframe{
     min-width:600px;
-    height: auto;
+    height: 600px;
     padding-right: 16px;
 }
-
+#food-pic{
+    padding-right: 16px;
+}
 strong{
     font-family:'Bebas Neue'
 }

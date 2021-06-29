@@ -4,6 +4,7 @@ import { Parallax } from 'react-parallax'
 import Navbar from './Navbar'
 import './PortfolioPage.css'
 import background from '../png/Portfolio Header 2.jpg'
+import foodWebsite from '../png/FoodWebsitePhoto.png'
 
 const PortfolioPage = () => {
 
@@ -19,6 +20,28 @@ const PortfolioPage = () => {
             </Parallax>
             <div className='video-container'>
                 <div id='blog-header' className='subtitle'> Projects </div>
+
+                <div className='project-summary'>
+                    {/* <iframe
+                        title="Food Website"
+                        src="https://www.youtube.com/embed/Bow4BPYAJlg"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    /> */}
+                    <a href="https://frontend-food-app.herokuapp.com/" target="_blank">
+                        <img id='food-pic' src={foodWebsite} alt="Food Website" width='600'/>
+                    </a>
+                    <div className='project-description'>
+                        <h3><strong>Food Website </strong></h3>
+                        <div className='project-description-text'>
+                            This is a homepage built strictly using HTML and CSS for an online food reviewing website like that of Yelp. This page was built with the purpoe of practicing my frontend skills with HTML and CSS.
+                            You'll find some neat animations when hovering over the food grid as well as a parallax effect on the banner of the home page.
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className='project-summary'>
                     <iframe
                         title="Picology"
