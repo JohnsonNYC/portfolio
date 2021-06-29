@@ -31,13 +31,6 @@ const HomeIndex = () => {
 
 
           </p>
-          {/* <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul> */}
         </section>
 
         <section id="two">
@@ -54,7 +47,7 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        <section id="three">
+        {/* <section id="three">
           <h2>Get In Touch</h2>
           <p>
             Plese provide your contact information along with you message and I will get back to you. Thanks!  
@@ -120,7 +113,7 @@ const HomeIndex = () => {
               </ul>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </Layout>
   )

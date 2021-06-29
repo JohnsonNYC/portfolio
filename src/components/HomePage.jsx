@@ -3,9 +3,6 @@ import { Parallax } from 'react-parallax'
 
 import Navbar from './Navbar'
 import HomeBanner from './HomeBanner'
-import About from './About'
-import Blog from './Blog'
-import VideoContainer from './VideoContainer'
 import './HomePage.css'
 import background from '../png/banner picture.jpg'
 
@@ -20,9 +17,6 @@ const HomePage = () => {
                     </div>
                 </div>
             </Parallax>
-            <About />
-            <Blog />
-            <VideoContainer />
         </div>
     );
 }

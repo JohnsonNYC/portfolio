@@ -1,17 +1,46 @@
 import React from 'react';
 import 'fontsource-archivo-narrow'
 import './About.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
 
     const renderSocialHandles = () => {
         if (window.location.pathname === '/about') {
             return (
-                <div className='social-media-handles'>
-                    <p> LinkedIn: <a className='handles' href="https://www.linkedin.com/in/johnson-kow/" target='_blank' rel='noopener noreferrer'>@johnson-kow</a> </p>
-                    <p> GitHub: <a className='handles' href="https://github.com/JohnsonNYC" target='_blank' rel='noopener noreferrer'>@JohnsonNYC</a></p>
-                    <p> Twitter: <a className='handles' href="https://twitter.com/TheJohnsonKow" target='_blank' rel='noopener noreferrer'>@TheJohnsonKow</a></p>
-                    <p> Medium: <a className='handles' href="https://johnsonkow.medium.com/" target='_blank' rel='noopener noreferrer'>@jkow</a></p>
+                <div>
+                    <ul >
+                        <li>
+                            <a href="https://twitter.com/TheJohnsonKow">
+                                <FontAwesomeIcon icon={faTwitter} className='social-icon' size="3x" color='#1DA1F2'/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/johnson-kow/" >
+                                <FontAwesomeIcon icon={faLinkedin} className='social-icon' size="3x" color='#0072b1'/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://johnsonkow.medium.com/">
+                                <FontAwesomeIcon icon={faMedium} className='social-icon' size="3x" color='black'/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/JohnsonNYC" >
+                                <FontAwesomeIcon icon={faGithub} className='social-icon' size="3x" color='#0cacf4'/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/johnson.nyc/">
+                                <FontAwesomeIcon icon={faInstagram} className='social-icon'size="3x" color='#bc2a8d'/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             )
         }
@@ -25,13 +54,13 @@ const About = () => {
                         <a className='badge-link' href={'https://www.youracclaim.com/badges/f6315f41-1479-4138-bd0f-04c473cb6644/public_url'} target='_blank' rel='noopener noreferrer'>
                             <img className='AWS-badge' src={require("../png/aws-certified-cloud-practitioner.png")} alt='AWS Badge' />
                         </a>
-                        <div id='AWS-badge-description'> Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects. </div>
+                        <span className='cert-description' id='AWS-badge-description'> Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects. </span>
                     </div>
                     <div className='certs'>
                         <a className='badge-link' href={'https://flatironschool.com/career-courses/coding-bootcamp'} target='_blank' rel='noopener noreferrer'>
                             <img className='AWS-badge' src={require("../png/flatironschoolbadge.png")} alt='Flatiron School Badge' />
                         </a>
-                        <div id='FI-badge-description'> Earners of the software engineering certificate have done much more than simply build technical skills: they have maintained technical blogs to show they can credibly talk tech; they have become a part of the tech community; they have amassed an impressive portfolio of unique, functional web applications to show employers as they enter the job-search phase with the support of our Career Services team. </div>
+                        <span className='cert-description' id='FI-badge-description'> Earners of the software engineering certificate have done much more than simply build technical skills: they have maintained technical blogs to show they can credibly talk tech; they have become a part of the tech community; they have amassed an impressive portfolio of unique, functional web applications to show employers as they enter the job-search phase with the support of our Career Services team. </span>
                     </div>
                 </div>
             )

@@ -28,7 +28,7 @@ const PortfolioPage = () => {
                         allowFullScreen
                     />
                     <div className='project-description'>
-                        <h2><strong>Picology </strong></h2>
+                        <h3><strong>Picology </strong></h3>
                         <div className='project-description-text'>
                             An ecommerce website where users can buy digital prints from their favorite artists.
                             Users will be able to browse through the collection of digital prints through the search bar or through filter.
@@ -46,7 +46,7 @@ const PortfolioPage = () => {
                         allowFullScreen
                     />
                     <div className='project-description'>
-                        <p><strong> Travel Rails </strong></p>
+                        <h3><strong> Travel Rails </strong></h3>
                         <div className='project-description-text'>
                             An online reservation system that aims to mimic AirBNB. With this application, upon sign up, you can a host or a customer.
                             As a host you will be able to create several listings of your space and customizing rates. As a customer, you will be able to
@@ -65,7 +65,7 @@ const PortfolioPage = () => {
                         allowFullScreen
                     />
                     <div className='project-description'>
-                        <p> <strong>Study Beans</strong> </p>
+                        <h3> <strong>Study Beans</strong> </h3>
                         <div className='project-description-text'>
                             An online reservation system for remote workers, students, or anyone that requires a space to place their laptop to get work done.
                             As a user you will be able to browse through a varitey of cafes throughout nyc that have updates on their seat availability.

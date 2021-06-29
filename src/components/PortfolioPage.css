@@ -1,9 +1,21 @@
+.video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #portfolio-banner {
-    height:664px;
+    height:100vh;
+    width: 100vw;
     background-size: cover;
     background-position: 0% 70%;
 }
-
+.subtitle{
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
 .project-summary{
     display:flex;
     margin-bottom: 1rem;
@@ -12,7 +24,8 @@
 
 iframe{
     min-width:600px;
-    height: 400px;
+    height: auto;
+    padding-right: 16px;
 }
 
 strong{
@@ -26,7 +39,7 @@ strong{
 }
 
 .project-description-text{
-    font-family:'Archivo Narrow'
+    font-family:"Abel";
 }
 
 .portfolio-description-wrapper{
@@ -34,11 +47,4 @@ strong{
     height: inherit;
     justify-content: center;
     align-items: center;
-}
-
-#portolio-description-text{
-    color:white;
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-    letter-spacing: 2px;
 }
